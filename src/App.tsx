@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import ExamForm from './components/ExamForm'
 import PoolInfo from './components/PoolInfo'
 import TopicTable from './components/TopicTable'
-import type { PoolData } from './types'
+import QuestionBrowser from './components/QuestionBrowser'
+import type { PoolData, Question } from './types'
+import { generateWordForPool } from './wordGenerator'
 
 const poolData: PoolData = {
   metadata: {
@@ -44,6 +46,28 @@ const poolData: PoolData = {
 
 function App() {
   const [error, setError] = useState<string | null>(null)
+  const [activeTab, setActiveTab] = useState<'generator' | 'fragenpool'>('generator')
+  const [questions, setQuestions] = useState<Question[]>([])
+  const [downloadingPool, setDownloadingPool] = useState(false)
+
+  useEffect(() => {
+    fetch('/fragenpool_itgs_praktiker_200.json')
+      .then(res => res.json())
+      .then(data => setQuestions(data.questions))
+      .catch(() => setError('Fragenpool konnte nicht geladen werden'))
+  }, [])
+
+  const handleDownloadPoolWord = async () => {
+    if (questions.length === 0) return
+    setDownloadingPool(true)
+    try {
+      await generateWordForPool(questions, 'Fragenpool IT-Grundschutz-Praktiker - 200 Fragen')
+    } catch {
+      setError('Fehler beim Erstellen des Word-Dokuments')
+    } finally {
+      setDownloadingPool(false)
+    }
+  }
 
   return (
     <main className="container">
@@ -52,25 +76,66 @@ function App() {
           <h1>IT-Grundschutz-Praktiker Prüfungsgenerator</h1>
           <p>Erzeugt randomisierte Prüfungen aus dem 200-Fragen-Pool nach der vorgegebenen Themenverteilung.</p>
         </div>
-        <div className="actions">
-          <a className="link-button" href="/fragenpool_itgs_praktiker_200.json" download>Fragenpool JSON</a>
-        </div>
       </section>
+
+      <nav className="tabs">
+        <button
+          className={`tab ${activeTab === 'generator' ? 'active' : ''}`}
+          onClick={() => setActiveTab('generator')}
+        >
+          Prüfungsgenerator
+        </button>
+        <button
+          className={`tab ${activeTab === 'fragenpool' ? 'active' : ''}`}
+          onClick={() => setActiveTab('fragenpool')}
+        >
+          Fragenpool
+        </button>
+      </nav>
 
       {error && <div className="message error">{error}</div>}
 
-      <ExamForm onError={setError} />
+      {activeTab === 'generator' && (
+        <>
+          <ExamForm onError={setError} />
 
-      <section className="grid">
-        <PoolInfo metadata={poolData.metadata} />
-        <div className="card small">
-          <h3>Prüfung</h3>
-          <p><strong>{poolData.exam_rules.total_questions}</strong> Fragen, <strong>{poolData.exam_rules.duration_minutes}</strong> Minuten, Bestehen ab <strong>{poolData.exam_rules.passing_threshold_questions}</strong> richtigen Fragen.</p>
-          <p>Die Auswahl erfolgt je Themenfeld. Antwortoptionen werden pro Variante neu gemischt.</p>
-        </div>
-      </section>
+          <section className="grid">
+            <PoolInfo metadata={poolData.metadata} />
+            <div className="card small">
+              <h3>Prüfung</h3>
+              <p><strong>{poolData.exam_rules.total_questions}</strong> Fragen, <strong>{poolData.exam_rules.duration_minutes}</strong> Minuten, Bestehen ab <strong>{poolData.exam_rules.passing_threshold_questions}</strong> richtigen Fragen.</p>
+              <p>Die Auswahl erfolgt je Themenfeld. Antwortoptionen werden pro Variante neu gemischt.</p>
+            </div>
+          </section>
 
-      <TopicTable topicRequirements={poolData.exam_rules.topic_requirements} />
+          <TopicTable topicRequirements={poolData.exam_rules.topic_requirements} />
+        </>
+      )}
+
+      {activeTab === 'fragenpool' && (
+        <>
+          <section className="card">
+            <div className="fragenpool-header">
+              <h2>Fragenpool durchsuchen</h2>
+              <div className="fragenpool-actions">
+                <a className="link-button secondary" href="/fragenpool_itgs_praktiker_200.json" download>
+                  JSON herunterladen
+                </a>
+                <button
+                  className="link-button"
+                  onClick={handleDownloadPoolWord}
+                  disabled={downloadingPool || questions.length === 0}
+                >
+                  {downloadingPool ? 'Erstelle...' : 'Word (.docx)'}
+                </button>
+              </div>
+            </div>
+            <p><strong>{questions.length}</strong> Fragen aus 15 Themenfeldern.</p>
+          </section>
+
+          <QuestionBrowser questions={questions} />
+        </>
+      )}
     </main>
   )
 }

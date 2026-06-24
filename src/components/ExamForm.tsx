@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import type { GeneratedExam, Question } from '../types'
-import { SeededRandom, selectQuestions, randomizeAnswers, EXAM_TOPIC_REQUIREMENTS } from '../examGenerator'
+import { SeededRandom, selectQuestions, randomizeAnswers } from '../examGenerator'
+import { generateWordDocument } from '../wordGenerator'
 
 interface Props {
   onError: (error: string | null) => void
@@ -15,6 +16,7 @@ export default function ExamForm({ onError }: Props) {
   const [loading, setLoading] = useState(false)
   const [exams, setExams] = useState<GeneratedExam[] | null>(null)
   const [questions, setQuestions] = useState<Question[]>([])
+  const [downloading, setDownloading] = useState<number | null>(null)
 
   useEffect(() => {
     fetch('/fragenpool_itgs_praktiker_200.json')
@@ -73,19 +75,21 @@ export default function ExamForm({ onError }: Props) {
       }
 
       setExams(generated)
-
-      const data = { exams: generated, topic_requirements: Object.entries(EXAM_TOPIC_REQUIREMENTS).map(([nr, cnt]) => ({ topic_nr: parseInt(nr), count: cnt })) }
-      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
-      const url = URL.createObjectURL(blob)
-      const a = document.createElement('a')
-      a.href = url
-      a.download = 'itgs_pruefungen.json'
-      a.click()
-      URL.revokeObjectURL(url)
     } catch {
       onError('Unbekannter Fehler')
     } finally {
       setLoading(false)
+    }
+  }
+
+  const handleDownloadWord = async (exam: GeneratedExam, index: number) => {
+    setDownloading(index)
+    try {
+      await generateWordDocument(exam, includeKey)
+    } catch {
+      onError('Fehler beim Erstellen des Word-Dokuments')
+    } finally {
+      setDownloading(null)
     }
   }
 
@@ -146,12 +150,45 @@ export default function ExamForm({ onError }: Props) {
       {exams && (
         <div className="result">
           <h3>{exams.length} Prüfung(en) erzeugt</h3>
-          {exams.map((exam, i) => (
-            <details key={i}>
-              <summary>Variante {exam.variant} (Seed: {exam.seed})</summary>
-              <pre>{JSON.stringify(exam.answer_key, null, 2)}</pre>
+          <table className="exam-table">
+            <thead>
+              <tr>
+                <th>Variante</th>
+                <th>Seed</th>
+                <th>Fragen</th>
+                <th>Download</th>
+              </tr>
+            </thead>
+            <tbody>
+              {exams.map((exam, i) => (
+                <tr key={i}>
+                  <td>{exam.variant}</td>
+                  <td>{exam.seed}</td>
+                  <td>{exam.questions.length}</td>
+                  <td>
+                    <button
+                      className="download-btn"
+                      onClick={() => handleDownloadWord(exam, i)}
+                      disabled={downloading === i}
+                    >
+                      {downloading === i ? 'Erstelle...' : 'Word (.docx)'}
+                    </button>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {exams[0] && (
+            <details className="answer-key-details">
+              <summary>Lösungsschlüssel anzeigen</summary>
+              {exams.map((exam, i) => (
+                <div key={i} className="answer-key-item">
+                  <h4>Variante {exam.variant}</h4>
+                  <pre>{JSON.stringify(exam.answer_key, null, 2)}</pre>
+                </div>
+              ))}
             </details>
-          ))}
+          )}
         </div>
       )}
     </section>
