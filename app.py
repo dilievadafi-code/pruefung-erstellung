@@ -7,7 +7,7 @@ from flask import Flask, render_template, request, send_file, flash
 from exam_generator import load_pool, generate_exams, zip_files, PoolError
 
 BASE_DIR = Path(__file__).resolve().parent
-POOL_PATH = BASE_DIR / 'data' / 'fragenpool_itgs_praktiker_200.json'
+POOL_PATH = BASE_DIR  / 'fragenpool_itgs_praktiker_200.json'
 app = Flask(__name__)
 app.secret_key = 'local-only-change-me'
 
@@ -46,7 +46,7 @@ def pool_json():
 
 @app.route('/pool-word')
 def pool_word():
-    return send_file(BASE_DIR / 'docs' / 'Fragenpool_ITGS_Praktiker_200.docx', as_attachment=True, download_name='Fragenpool_ITGS_Praktiker_200.docx')
+    return send_file(BASE_DIR / 'Fragenpool_ITGS_Praktiker_200.docx', as_attachment=True, download_name='Fragenpool_ITGS_Praktiker_200.docx')
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=5000, debug=False)
