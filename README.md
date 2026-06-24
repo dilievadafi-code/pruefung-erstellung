@@ -1,33 +1,34 @@
 # IT-Grundschutz-Praktiker Prüfungsgenerator
 
-Lokale Webanwendung zur Erstellung randomisierter Word-Prüfungen aus dem 200-Fragen-Pool.
-
-## Start
-
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-source .venv/bin/activate
-pip install -r requirements.txt
-python app.py
-```
-
-Danach im Browser öffnen:
-
-```text
-http://127.0.0.1:5000
-```
+Webanwendung zur Erstellung randomisierter Prüfungen aus dem 200-Fragen-Pool.
 
 ## Funktionen
 
-- erzeugt 50 Multiple-Choice-Fragen pro Prüfung
-- hält die Themenfeldverteilung aus den Prüfungsbedingungen ein
-- nutzt vier Antwortmöglichkeiten je Frage
-- randomisiert Frageauswahl, Fragenreihenfolge und Antwortoptionen
-- erzeugt Word-Dateien im Format `1. Frage`, `a)`, `b)`, `c)`, `d)`
-- kann den Lösungsschlüssel am Ende einfügen
-- erstellt zusätzlich ein Auswahlprotokoll
-- unterstützt Seed-Werte für reproduzierbare Varianten
-- minimiert bei mehreren Prüfungen die Überschneidung zwischen Varianten
+- Erzeugt 50 Multiple-Choice-Fragen pro Prüfung
+- Hält die Themenfeldverteilung aus den Prüfungsbedingungen ein
+- Nutzt vier Antwortmöglichkeiten je Frage
+- Randomisiert Frageauswahl, Fragenreihenfolge und Antwortoptionen
+- Kann den Lösungsschlüssel am Ende einfügen
+- Unterstützt Seed-Werte für reproduzierbare Varianten
+- Minimiert bei mehreren Prüfungen die Überschneidung zwischen Varianten
 
 Der Pool enthält Übungsfragen und keine offiziellen BSI-Prüfungsfragen.
+
+## Entwicklung
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Technologien
+
+- React + TypeScript
+- Vite
+- Client-side Prüfungsgenerierung (kein Server erforderlich)
