@@ -1,0 +1,3788 @@
+{
+  "metadata": {
+    "title": "Fragenpool IT-Grundschutz-Praktiker - 200 Multiple-Choice-Fragen",
+    "created": "2026-06-23",
+    "question_total": 200,
+    "basis_expert_ratio": {
+      "Basis": 150,
+      "Experte": 50
+    },
+    "answers_per_question": 4,
+    "correct_answers_per_question": "1 bis 3",
+    "answer_distribution": {
+      "1": 32,
+      "2": 70,
+      "3": 98
+    },
+    "source_note": "Eigenformulierungen auf Basis der bereitgestellten Prüfungsbedingungen, des Online-Kurses und der vorhandenen Fragenorientierung. Kontrollfragen des Online-Kurses wurden nicht wortgleich übernommen.",
+    "official_note": "Kein offizieller BSI-Fragenpool und keine offiziellen BSI-Prüfungsfragen."
+  },
+  "exam_rules": {
+    "total_questions": 50,
+    "duration_minutes": 60,
+    "passing_threshold_questions": 30,
+    "answers_per_question": 4,
+    "topic_requirements": [
+      {
+        "topic_nr": 1,
+        "topic": "Einführung und Grundlagen der IT-Sicherheit und rechtlicher Rahmenbedingungen",
+        "questions_in_exam": 2,
+        "questions_in_pool": 8
+      },
+      {
+        "topic_nr": 2,
+        "topic": "Normen und Standards der Informationssicherheit",
+        "questions_in_exam": 2,
+        "questions_in_pool": 8
+      },
+      {
+        "topic_nr": 3,
+        "topic": "Einführung IT-Grundschutz",
+        "questions_in_exam": 2,
+        "questions_in_pool": 8
+      },
+      {
+        "topic_nr": 4,
+        "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+        "questions_in_exam": 3,
+        "questions_in_pool": 12
+      },
+      {
+        "topic_nr": 5,
+        "topic": "IT-Grundschutz-Kompendium (Überblick)",
+        "questions_in_exam": 2,
+        "questions_in_pool": 8
+      },
+      {
+        "topic_nr": 6,
+        "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+        "questions_in_exam": 8,
+        "questions_in_pool": 32
+      },
+      {
+        "topic_nr": 7,
+        "topic": "IT-Grundschutz-Check",
+        "questions_in_exam": 3,
+        "questions_in_pool": 12
+      },
+      {
+        "topic_nr": 8,
+        "topic": "Risikoanalyse",
+        "questions_in_exam": 5,
+        "questions_in_pool": 20
+      },
+      {
+        "topic_nr": 9,
+        "topic": "Umsetzungsplanung",
+        "questions_in_exam": 5,
+        "questions_in_pool": 20
+      },
+      {
+        "topic_nr": 10,
+        "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+        "questions_in_exam": 5,
+        "questions_in_pool": 20
+      },
+      {
+        "topic_nr": 11,
+        "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+        "questions_in_exam": 3,
+        "questions_in_pool": 12
+      },
+      {
+        "topic_nr": 12,
+        "topic": "IT-Grundschutz-Profile",
+        "questions_in_exam": 2,
+        "questions_in_pool": 8
+      },
+      {
+        "topic_nr": 13,
+        "topic": "Vorbereitung auf ein Audit",
+        "questions_in_exam": 3,
+        "questions_in_pool": 12
+      },
+      {
+        "topic_nr": 14,
+        "topic": "Sicherheitsvorfallbehandlung",
+        "questions_in_exam": 3,
+        "questions_in_pool": 12
+      },
+      {
+        "topic_nr": 15,
+        "topic": "BCM",
+        "questions_in_exam": 2,
+        "questions_in_pool": 8
+      }
+    ],
+    "difficulty_target": "ca. 75 Prozent Basis und 25 Prozent Experte; bei 50 Fragen sind 37/13 oder 38/12 möglich.",
+    "selection_logic": "Zufällige Auswahl je Themenfeld nach Tabelle 2 der Prüfungsbedingungen; Antwortoptionen werden pro Prüfung neu gemischt."
+  },
+  "questions": [
+    {
+      "id": "TF01-001",
+      "topic_nr": 1,
+      "topic": "Einführung und Grundlagen der IT-Sicherheit und rechtlicher Rahmenbedingungen",
+      "level": "Basis",
+      "question": "Welche Aussagen beschreiben Informationssicherheit im Sinne eines ganzheitlichen Sicherheitsansatzes?",
+      "answers": {
+        "A": "Sie umfasst technische, organisatorische, personelle und infrastrukturelle Maßnahmen.",
+        "B": "Sie betrachtet nur Systeme, auf denen elektronische Daten gespeichert werden.",
+        "C": "Sie schützt Informationen unabhängig davon, ob diese digital, auf Papier oder mündlich verarbeitet werden.",
+        "D": "Sie endet, sobald eine Firewall und ein Virenschutz eingeführt wurden."
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 1 und 2"
+    },
+    {
+      "id": "TF01-002",
+      "topic_nr": 1,
+      "topic": "Einführung und Grundlagen der IT-Sicherheit und rechtlicher Rahmenbedingungen",
+      "level": "Basis",
+      "question": "Welche drei klassischen Grundwerte werden mit der CIA-Triade der Informationssicherheit verbunden?",
+      "answers": {
+        "A": "Vertraulichkeit, Integrität und Verfügbarkeit",
+        "B": "Authentisierung, Autorisierung und Accounting",
+        "C": "Prävention, Detektion und Reaktion",
+        "D": "Planung, Umsetzung und Verbesserung"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Grundlagen Informationssicherheit"
+    },
+    {
+      "id": "TF01-003",
+      "topic_nr": 1,
+      "topic": "Einführung und Grundlagen der IT-Sicherheit und rechtlicher Rahmenbedingungen",
+      "level": "Basis",
+      "question": "Welche Ursachen können nach dem Grundverständnis des IT-Grundschutzes zu Gefährdungen für Informationen und IT führen?",
+      "answers": {
+        "A": "Fahrlässiges Verhalten von Beschäftigten",
+        "B": "Technische Mängel oder Ausfälle",
+        "C": "Naturereignisse oder höhere Gewalt",
+        "D": "Ausschließlich vorsätzliche externe Angriffe"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.1"
+    },
+    {
+      "id": "TF01-004",
+      "topic_nr": 1,
+      "topic": "Einführung und Grundlagen der IT-Sicherheit und rechtlicher Rahmenbedingungen",
+      "level": "Basis",
+      "question": "Wann gelten Sicherheitsmaßnahmen als angemessen?",
+      "answers": {
+        "A": "Wenn sie zum Schutzbedarf und zur tatsächlichen Gefährdungslage passen.",
+        "B": "Wenn sie unabhängig vom Bedarf immer das technisch maximal mögliche Niveau erreichen.",
+        "C": "Wenn sie wirksam sind, ohne die Institution unverhältnismäßig zu überfordern.",
+        "D": "Wenn sie ausschließlich nach den geringsten Anschaffungskosten ausgewählt werden."
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.1"
+    },
+    {
+      "id": "TF01-005",
+      "topic_nr": 1,
+      "topic": "Einführung und Grundlagen der IT-Sicherheit und rechtlicher Rahmenbedingungen",
+      "level": "Basis",
+      "question": "Welche externen Anforderungen können Sicherheitsziele einer Institution beeinflussen?",
+      "answers": {
+        "A": "Gesetzliche oder regulatorische Vorgaben",
+        "B": "Eine interne Gestaltungsvorgabe ohne Sicherheitsbezug",
+        "C": "Eine persönliche Risikoakzeptanz eines Administrators ohne Mandat",
+        "D": "Ein Produktdatenblatt ohne verbindliche Sicherheitsanforderung"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.2"
+    },
+    {
+      "id": "TF01-006",
+      "topic_nr": 1,
+      "topic": "Einführung und Grundlagen der IT-Sicherheit und rechtlicher Rahmenbedingungen",
+      "level": "Basis",
+      "question": "Welche Aufgaben liegen typischerweise bei der obersten Leitung im Sicherheitsprozess?",
+      "answers": {
+        "A": "Sie setzt Ziele und Rahmenbedingungen für Informationssicherheit.",
+        "B": "Sie übernimmt jede technische Einzelkonfiguration selbst.",
+        "C": "Sie delegiert die Gesamtverantwortung vollständig an die IT-Abteilung.",
+        "D": "Sie ist nur nach einem Sicherheitsvorfall in den Prozess einzubinden."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.3"
+    },
+    {
+      "id": "TF01-007",
+      "topic_nr": 1,
+      "topic": "Einführung und Grundlagen der IT-Sicherheit und rechtlicher Rahmenbedingungen",
+      "level": "Experte",
+      "question": "Ein Unternehmen führt neue Sicherheitssoftware ein, hat aber keine Sicherheitsleitlinie, keine Rollen und keine Erfolgskontrolle. Welche Bewertung passt am besten?",
+      "answers": {
+        "A": "Die Maßnahme kann hilfreich sein, ersetzt aber kein geregeltes ISMS.",
+        "B": "Die Informationssicherheit ist ausreichend geregelt, weil ein technisches Werkzeug eingeführt wurde.",
+        "C": "Ohne Zuständigkeiten und Überprüfung bleibt unklar, ob die Maßnahme wirksam in den Sicherheitsprozess eingebettet ist.",
+        "D": "Ein Sicherheitsprozess ist erst bei einer Zertifizierung erforderlich."
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 2"
+    },
+    {
+      "id": "TF01-008",
+      "topic_nr": 1,
+      "topic": "Einführung und Grundlagen der IT-Sicherheit und rechtlicher Rahmenbedingungen",
+      "level": "Experte",
+      "question": "Ein Kunde fordert vor Vertragsabschluss einen nachvollziehbaren Nachweis über Informationssicherheitsmaßnahmen. Welche Reaktionen sind fachlich sinnvoll?",
+      "answers": {
+        "A": "Die Anforderung sollte in die Analyse der Rahmenbedingungen einbezogen werden.",
+        "B": "Die Institution sollte Entscheidungen und Nachweise so dokumentieren, dass sie prüfbar sind.",
+        "C": "Die Forderung ist irrelevant, solange kein Gesetz ausdrücklich genannt wird.",
+        "D": "Sicherheitsziele und Sicherheitskonzept können durch solche externen Anforderungen beeinflusst werden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.1 und 2.2"
+    },
+    {
+      "id": "TF02-001",
+      "topic_nr": 2,
+      "topic": "Normen und Standards der Informationssicherheit",
+      "level": "Basis",
+      "question": "Wofür steht der BSI-Standard 200-1 im IT-Grundschutz-Kontext?",
+      "answers": {
+        "A": "Für Anforderungen und Empfehlungen an ein Managementsystem für Informationssicherheit",
+        "B": "Für die detaillierte technische Konfiguration einzelner Betriebssysteme",
+        "C": "Für die Beschreibung von Komponenten und Aufgaben eines ISMS",
+        "D": "Für einen Maßnahmenkatalog ausschließlich für Netzwerktechnik"
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.2 und 2"
+    },
+    {
+      "id": "TF02-002",
+      "topic_nr": 2,
+      "topic": "Normen und Standards der Informationssicherheit",
+      "level": "Basis",
+      "question": "Welche Aussage beschreibt den BSI-Standard 200-2 zutreffend?",
+      "answers": {
+        "A": "Er beschreibt die IT-Grundschutz-Methodik und Vorgehensweisen zur Einführung eines ISMS.",
+        "B": "Er ersetzt das IT-Grundschutz-Kompendium vollständig.",
+        "C": "Er konkretisiert methodisch, wie Sicherheitskonzepte nach IT-Grundschutz erstellt werden können.",
+        "D": "Er enthält ausschließlich Vorgaben zur Zertifikatslaufzeit."
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.2"
+    },
+    {
+      "id": "TF02-003",
+      "topic_nr": 2,
+      "topic": "Normen und Standards der Informationssicherheit",
+      "level": "Basis",
+      "question": "Wofür wird der BSI-Standard 200-3 herangezogen?",
+      "answers": {
+        "A": "Für ein vereinfachtes Verfahren zur Risikoanalyse auf Basis von IT-Grundschutz",
+        "B": "Für die Auswahl von Auditoren in einem Zertifizierungsverfahren",
+        "C": "Für Fälle, in denen Basis- und Standard-Anforderungen möglicherweise nicht ausreichen",
+        "D": "Für die Ablösung der Schutzbedarfsfeststellung in der Standard-Absicherung"
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.2"
+    },
+    {
+      "id": "TF02-004",
+      "topic_nr": 2,
+      "topic": "Normen und Standards der Informationssicherheit",
+      "level": "Basis",
+      "question": "Welche Aussagen zum IT-Grundschutz-Kompendium sind richtig?",
+      "answers": {
+        "A": "Es ist modular in Bausteine gegliedert.",
+        "B": "Es besteht ausschließlich aus Gesetzestexten.",
+        "C": "Es legt die Zertifikatslaufzeit für jede Institution individuell fest.",
+        "D": "Es ersetzt die Festlegung des Geltungsbereichs vollständig."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.2 und 5"
+    },
+    {
+      "id": "TF02-005",
+      "topic_nr": 2,
+      "topic": "Normen und Standards der Informationssicherheit",
+      "level": "Basis",
+      "question": "Welche Aussage beschreibt ISO/IEC 27001 am treffendsten?",
+      "answers": {
+        "A": "Sie enthält Anforderungen an ein Informationssicherheits-Managementsystem.",
+        "B": "Sie ist ein reiner Katalog technischer Einzelmaßnahmen.",
+        "C": "Sie ist grundsätzlich zertifizierbar.",
+        "D": "Sie beschreibt ausschließlich die Risikoanalyse nach IT-Grundschutz."
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Normen und Standards"
+    },
+    {
+      "id": "TF02-006",
+      "topic_nr": 2,
+      "topic": "Normen und Standards der Informationssicherheit",
+      "level": "Basis",
+      "question": "Welche Rolle hat ISO/IEC 27002 typischerweise?",
+      "answers": {
+        "A": "Sie bietet Orientierung zu Informationssicherheitsmaßnahmen und Controls.",
+        "B": "Sie dient als alleinige Grundlage für die Prüfung zum IT-Grundschutz-Praktiker.",
+        "C": "Sie ergänzt Anforderungen aus Managementsystemnormen durch Maßnahmenempfehlungen.",
+        "D": "Sie ersetzt die Festlegung des Geltungsbereichs eines ISMS."
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Normen und Standards"
+    },
+    {
+      "id": "TF02-007",
+      "topic_nr": 2,
+      "topic": "Normen und Standards der Informationssicherheit",
+      "level": "Experte",
+      "question": "Welche Aussagen beschreiben das Verhältnis von ISO 27001 und IT-Grundschutz fachlich angemessen?",
+      "answers": {
+        "A": "ISO 27001 formuliert Anforderungen an ein ISMS; IT-Grundschutz konkretisiert methodisch und über Bausteine die Umsetzung.",
+        "B": "ISO 27001 und IT-Grundschutz sind in Inhalt und Struktur vollständig identisch.",
+        "C": "IT-Grundschutz kann ohne jede Managementverantwortung betrieben werden.",
+        "D": "Ein IT-Grundschutz-Modell ersetzt jede Prüfung der Umsetzung."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.2 und 9.5"
+    },
+    {
+      "id": "TF02-008",
+      "topic_nr": 2,
+      "topic": "Normen und Standards der Informationssicherheit",
+      "level": "Experte",
+      "question": "Warum erleichtert die Orientierung an anerkannten Standards häufig den Sicherheitsnachweis gegenüber Dritten?",
+      "answers": {
+        "A": "Weil Vorgehensweise, Begriffe und Nachweise besser nachvollziehbar werden.",
+        "B": "Weil damit alle Risiken automatisch ausgeschlossen sind.",
+        "C": "Weil Prüfbarkeit und Vergleichbarkeit verbessert werden.",
+        "D": "Weil dadurch dokumentierte Entscheidungen mit allgemein anerkannten Anforderungen verknüpft werden können."
+      },
+      "solution": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.1"
+    },
+    {
+      "id": "TF03-001",
+      "topic_nr": 3,
+      "topic": "Einführung IT-Grundschutz",
+      "level": "Basis",
+      "question": "Welches Ziel verfolgt der IT-Grundschutz grundsätzlich?",
+      "answers": {
+        "A": "Ein angemessenes Sicherheitsniveau systematisch, effizient und nachvollziehbar zu erreichen.",
+        "B": "Eine Institution ausschließlich auf technische Schwachstellen zu prüfen.",
+        "C": "Sicherheitskonzepte passend zu Prozessen, Fachaufgaben und Strukturen zu entwickeln.",
+        "D": "Risikoentscheidungen der Leitung vollständig zu ersetzen."
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 1"
+    },
+    {
+      "id": "TF03-002",
+      "topic_nr": 3,
+      "topic": "Einführung IT-Grundschutz",
+      "level": "Basis",
+      "question": "Welche Vorgehensweisen werden in der IT-Grundschutz-Methodik unterschieden?",
+      "answers": {
+        "A": "Basis-Absicherung",
+        "B": "Standard-Absicherung",
+        "C": "Kern-Absicherung",
+        "D": "Maximal-Absicherung"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.3 und 2.9"
+    },
+    {
+      "id": "TF03-003",
+      "topic_nr": 3,
+      "topic": "Einführung IT-Grundschutz",
+      "level": "Basis",
+      "question": "Was kennzeichnet die Basis-Absicherung?",
+      "answers": {
+        "A": "Sie bietet einen Einstieg über besonders wichtige Basis-Anforderungen.",
+        "B": "Sie zielt darauf, schnell ein elementares Sicherheitsniveau zu erreichen.",
+        "C": "Sie setzt zwingend für jedes Zielobjekt eine vollständige Risikoanalyse voraus.",
+        "D": "Sie kann besonders für kleine oder mittelgroße Institutionen interessant sein."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.3"
+    },
+    {
+      "id": "TF03-004",
+      "topic_nr": 3,
+      "topic": "Einführung IT-Grundschutz",
+      "level": "Basis",
+      "question": "Was kennzeichnet die Standard-Absicherung?",
+      "answers": {
+        "A": "Sie betrachtet grundsätzlich den Informationsverbund umfassend.",
+        "B": "Sie umfasst unter anderem Strukturanalyse, Schutzbedarfsfeststellung, Modellierung und Check.",
+        "C": "Sie konzentriert sich ausschließlich auf einzelne Kronjuwelen.",
+        "D": "Sie kann durch zusätzliche Risikoanalysen ergänzt werden, wenn dies erforderlich ist."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.3 und 2.9"
+    },
+    {
+      "id": "TF03-005",
+      "topic_nr": 3,
+      "topic": "Einführung IT-Grundschutz",
+      "level": "Basis",
+      "question": "Was bedeutet der Begriff „Kronjuwelen“ im Zusammenhang mit Kern-Absicherung?",
+      "answers": {
+        "A": "Besonders wichtige Geschäftsprozesse, Informationen oder Assets einer Institution",
+        "B": "Alle Clients mit normalem Schutzbedarf",
+        "C": "Bereiche, deren Ausfall oder Kompromittierung besonders gravierend wäre",
+        "D": "Nur die physisch teuersten Geräte im Informationsverbund"
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.3 und 2.9"
+    },
+    {
+      "id": "TF03-006",
+      "topic_nr": 3,
+      "topic": "Einführung IT-Grundschutz",
+      "level": "Basis",
+      "question": "Welche Aussage beschreibt einen Informationsverbund im IT-Grundschutz?",
+      "answers": {
+        "A": "Er legt den Geltungsbereich eines Sicherheitskonzepts fest.",
+        "B": "Er besteht nur aus Netzwerkkomponenten.",
+        "C": "Er darf keine Schnittstellen zu externen Partnern enthalten.",
+        "D": "Er ist immer mit der gesamten juristischen Person identisch."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.8"
+    },
+    {
+      "id": "TF03-007",
+      "topic_nr": 3,
+      "topic": "Einführung IT-Grundschutz",
+      "level": "Experte",
+      "question": "Eine kleine Behörde möchte schnell alle relevanten Geschäftsprozesse mit elementaren Maßnahmen absichern und später vertiefen. Welche Vorgehensweise ist als Einstieg besonders naheliegend?",
+      "answers": {
+        "A": "Basis-Absicherung",
+        "B": "Kern-Absicherung nur für einen einzelnen Server",
+        "C": "Standard-Absicherung zwingend ohne Zwischenstufe",
+        "D": "Verzicht auf ein Sicherheitskonzept bis zur Zertifizierung"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.3 und 2.9"
+    },
+    {
+      "id": "TF03-008",
+      "topic_nr": 3,
+      "topic": "Einführung IT-Grundschutz",
+      "level": "Experte",
+      "question": "Eine Organisation will zunächst nur ihre besonders kritische Produktionssteuerung und die damit verbundenen Geschäftsprozesse vertieft absichern. Welche Aussagen sind passend?",
+      "answers": {
+        "A": "Die Kern-Absicherung kann für solche besonders wichtigen Bereiche geeignet sein.",
+        "B": "Die betrachteten Bereiche müssen nicht abgegrenzt werden, weil sie kritisch sind.",
+        "C": "Bei Kern-Absicherung entfällt die Sicherheitsorganisation vollständig.",
+        "D": "Kern-Absicherung verbietet spätere Erweiterungen auf weitere Bereiche."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.3 und 2.9"
+    },
+    {
+      "id": "TF04-001",
+      "topic_nr": 4,
+      "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+      "level": "Basis",
+      "question": "Welche Reihenfolge entspricht dem typischen Ablauf der Standard-Absicherung nach IT-Grundschutz?",
+      "answers": {
+        "A": "Strukturanalyse, Schutzbedarfsfeststellung, Modellierung, IT-Grundschutz-Check, Risikoanalyse bei Bedarf, Umsetzungsplanung",
+        "B": "Risikoanalyse, Zertifizierung, Strukturanalyse, Modellierung, Schutzbedarfsfeststellung",
+        "C": "Umsetzungsplanung, Check, Schutzbedarfsfeststellung, Festlegung des Geltungsbereichs",
+        "D": "Auditvorbereitung, Zertifikat, Strukturanalyse, Sicherheitsleitlinie"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.9"
+    },
+    {
+      "id": "TF04-002",
+      "topic_nr": 4,
+      "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+      "level": "Basis",
+      "question": "Was ist zu Beginn der IT-Grundschutz-Vorgehensweise festzulegen?",
+      "answers": {
+        "A": "Der Geltungsbereich des Sicherheitskonzepts",
+        "B": "Die relevanten Organisationsteile, Prozesse und Zielobjekte im Informationsverbund",
+        "C": "Die finale Zertifikatsnummer",
+        "D": "Zielobjekte außerhalb des Scopes ohne Schnittstellenbezug"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.8"
+    },
+    {
+      "id": "TF04-003",
+      "topic_nr": 4,
+      "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+      "level": "Basis",
+      "question": "Welches Ergebnis liefert die Strukturanalyse?",
+      "answers": {
+        "A": "Eine nachvollziehbare Erfassung relevanter Zielobjekte und Abhängigkeiten",
+        "B": "Eine abschließende Risikobehandlung für alle identifizierten Risiken",
+        "C": "Eine automatische Zertifizierung des Informationsverbunds",
+        "D": "Eine vollständige Umsetzungsbestätigung aller Anforderungen"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 3"
+    },
+    {
+      "id": "TF04-004",
+      "topic_nr": 4,
+      "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+      "level": "Basis",
+      "question": "Wozu dient die Schutzbedarfsfeststellung?",
+      "answers": {
+        "A": "Sie bewertet, welche Bedeutung Vertraulichkeit, Integrität und Verfügbarkeit für Zielobjekte haben.",
+        "B": "Sie unterstützt die Entscheidung, ob normaler, hoher oder sehr hoher Schutzbedarf vorliegt.",
+        "C": "Sie ersetzt die Modellierung der IT-Grundschutz-Bausteine.",
+        "D": "Sie legt ohne weitere Prüfung alle technischen Maßnahmen verbindlich fest."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 4"
+    },
+    {
+      "id": "TF04-005",
+      "topic_nr": 4,
+      "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+      "level": "Basis",
+      "question": "Was entsteht im Schritt Modellierung?",
+      "answers": {
+        "A": "Ein IT-Grundschutz-Modell mit zugeordneten Bausteinen für die Zielobjekte",
+        "B": "Eine vollständige Bestätigung, dass jede Anforderung umgesetzt ist",
+        "C": "Ein Zertifikat für den betrachteten Informationsverbund",
+        "D": "Eine Liste der endgültig akzeptierten Rest-Risiken ohne weitere Bewertung"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 5"
+    },
+    {
+      "id": "TF04-006",
+      "topic_nr": 4,
+      "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+      "level": "Basis",
+      "question": "Was ist der Kern des IT-Grundschutz-Checks?",
+      "answers": {
+        "A": "Ein Soll-Ist-Vergleich zwischen Anforderungen und tatsächlicher Umsetzung",
+        "B": "Die Erhebung der Umsetzungslage anhand von Nachweisen, Interviews und weiteren Quellen",
+        "C": "Die automatische Zertifizierung des Informationsverbunds",
+        "D": "Die Freigabe des Geltungsbereichs durch den Auditor als erster Schritt"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 6"
+    },
+    {
+      "id": "TF04-007",
+      "topic_nr": 4,
+      "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+      "level": "Basis",
+      "question": "Wann ist im Ablauf eine ergänzende Risikoanalyse naheliegend?",
+      "answers": {
+        "A": "Wenn erhöhter Schutzbedarf besteht.",
+        "B": "Wenn besondere oder zusätzliche Gefährdungen betrachtet werden müssen.",
+        "C": "Wenn Basis- und Standard-Anforderungen erkennbar nicht ausreichen.",
+        "D": "Immer vor jeder Strukturanalyse."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 7"
+    },
+    {
+      "id": "TF04-008",
+      "topic_nr": 4,
+      "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+      "level": "Basis",
+      "question": "Was ist ein wesentliches Ergebnis der Umsetzungsplanung?",
+      "answers": {
+        "A": "Eine priorisierte Maßnahmenplanung mit Verantwortlichen und Terminen",
+        "B": "Eine Zusammenführung von Maßnahmen aus Check und Risikoanalyse",
+        "C": "Eine automatische Bestätigung, dass alle Risiken akzeptiert sind",
+        "D": "Der Ersatz der Schutzbedarfsfeststellung durch eine Budgetliste"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 8"
+    },
+    {
+      "id": "TF04-009",
+      "topic_nr": 4,
+      "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+      "level": "Basis",
+      "question": "Welche Aussage beschreibt Aufrechterhaltung und Verbesserung im Ablauf richtig?",
+      "answers": {
+        "A": "Sie sorgt dafür, dass Änderungen, neue Bedrohungen und Prüfungsergebnisse in das ISMS einfließen.",
+        "B": "Sie beginnt erst nach Ablauf eines Zertifikats und hat vorher keine Bedeutung.",
+        "C": "Sie ersetzt den Sicherheitsprozess durch eine einmalige Ablage.",
+        "D": "Sie verhindert, dass Maßnahmen an neue Rahmenbedingungen angepasst werden."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF04-010",
+      "topic_nr": 4,
+      "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+      "level": "Experte",
+      "question": "Bei einer Institution wird der IT-Grundschutz-Check durchgeführt, bevor ein Modell mit Bausteinen vorliegt. Welche Einschätzung ist fachlich korrekt?",
+      "answers": {
+        "A": "Die Prüfbasis ist unklar, weil der Check auf den Anforderungen des Modells aufsetzt.",
+        "B": "Der Check kann dadurch beliebig und schwer nachvollziehbar werden.",
+        "C": "Das Vorgehen ist unproblematisch, wenn die Interviewpartner erfahren sind.",
+        "D": "Zunächst sollten Zielobjekte und relevante Bausteine geklärt werden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 5 und 6"
+    },
+    {
+      "id": "TF04-011",
+      "topic_nr": 4,
+      "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+      "level": "Experte",
+      "question": "Nach der Schutzbedarfsfeststellung wird deutlich, dass ein Prozess sehr hohen Schutzbedarf bei Verfügbarkeit hat. Welche Folgerungen sind möglich?",
+      "answers": {
+        "A": "Die Modellierung und spätere Maßnahmenauswahl müssen diesen Bedarf berücksichtigen.",
+        "B": "Eine ergänzende Risikoanalyse kann erforderlich werden.",
+        "C": "Der Schutzbedarf darf ignoriert werden, wenn alle Basis-Anforderungen umgesetzt sind.",
+        "D": "Abhängige IT-Systeme und Räume sollten auf mögliche Vererbungseffekte geprüft werden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 4 und 7"
+    },
+    {
+      "id": "TF04-012",
+      "topic_nr": 4,
+      "topic": "IT-Grundschutz-Vorgehensweise (Überblick)",
+      "level": "Experte",
+      "question": "Während der Umsetzung wird ein neuer Cloud-Dienst für einen kritischen Prozess eingeführt. Welche Schritte sind sinnvoll?",
+      "answers": {
+        "A": "Die Strukturanalyse und das IT-Grundschutz-Modell werden geprüft und bei Bedarf aktualisiert.",
+        "B": "Der Schutzbedarf und die Risiken des neuen Dienstes werden betrachtet.",
+        "C": "Der Dienst bleibt außerhalb des Sicherheitsprozesses, weil die Umsetzung bereits begonnen hat.",
+        "D": "Die Auswirkungen auf Maßnahmen, Nachweise und Verantwortlichkeiten werden bewertet."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF05-001",
+      "topic_nr": 5,
+      "topic": "IT-Grundschutz-Kompendium (Überblick)",
+      "level": "Basis",
+      "question": "Wie ist das IT-Grundschutz-Kompendium grundsätzlich aufgebaut?",
+      "answers": {
+        "A": "Es ist modular in Bausteine gegliedert.",
+        "B": "Die Bausteine sind thematischen Schichten zugeordnet.",
+        "C": "Es enthält ausschließlich Checklisten ohne fachliche Einordnung.",
+        "D": "Es legt für jede Institution die gleiche Maßnahmenreihenfolge unabhängig vom Scope fest."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.2 und 5"
+    },
+    {
+      "id": "TF05-002",
+      "topic_nr": 5,
+      "topic": "IT-Grundschutz-Kompendium (Überblick)",
+      "level": "Basis",
+      "question": "Welche Bestandteile gehören typischerweise zu einem IT-Grundschutz-Baustein?",
+      "answers": {
+        "A": "Eine Beschreibung des betrachteten Gegenstands und seiner Zielsetzung",
+        "B": "Eine pauschale Darstellung der Gefährdungslage",
+        "C": "Eine Garantie, dass keine zusätzlichen Risiken mehr bestehen",
+        "D": "Eine Liste der Prüflinge für eine Schulungsprüfung"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.2 und 5"
+    },
+    {
+      "id": "TF05-003",
+      "topic_nr": 5,
+      "topic": "IT-Grundschutz-Kompendium (Überblick)",
+      "level": "Basis",
+      "question": "Welche Arten von Anforderungen werden im IT-Grundschutz-Kontext unterschieden?",
+      "answers": {
+        "A": "Basis-Anforderungen",
+        "B": "Standard-Anforderungen",
+        "C": "Anforderungen bei erhöhtem Schutzbedarf",
+        "D": "Unverbindliche Prüfungsfragen als Sicherheitsanforderungen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 5 und 6"
+    },
+    {
+      "id": "TF05-004",
+      "topic_nr": 5,
+      "topic": "IT-Grundschutz-Kompendium (Überblick)",
+      "level": "Basis",
+      "question": "Wozu dient das Schichtenmodell des IT-Grundschutz-Kompendiums?",
+      "answers": {
+        "A": "Es ordnet Bausteine thematisch.",
+        "B": "Es erleichtert die systematische Auswahl relevanter Bausteine.",
+        "C": "Es legt die Reihenfolge der Zertifizierungsschritte fest.",
+        "D": "Es bildet unterschiedliche Bereiche wie Organisation, Anwendungen, Systeme oder Räume ab."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 5.2"
+    },
+    {
+      "id": "TF05-005",
+      "topic_nr": 5,
+      "topic": "IT-Grundschutz-Kompendium (Überblick)",
+      "level": "Basis",
+      "question": "Welche Rolle haben Umsetzungshinweise im Verhältnis zu Anforderungen?",
+      "answers": {
+        "A": "Sie geben praktische Hinweise, wie Anforderungen umgesetzt werden können.",
+        "B": "Sie ersetzen die Entscheidung, ob eine Anforderung für ein Zielobjekt relevant ist.",
+        "C": "Sie sind identisch mit einem Zertifikat.",
+        "D": "Sie machen den IT-Grundschutz-Check überflüssig."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 1.2"
+    },
+    {
+      "id": "TF05-006",
+      "topic_nr": 5,
+      "topic": "IT-Grundschutz-Kompendium (Überblick)",
+      "level": "Basis",
+      "question": "Welche Aussage zur Kreuzreferenztabelle ist zutreffend?",
+      "answers": {
+        "A": "Sie unterstützt den Bezug zwischen Anforderungen und elementaren Gefährdungen.",
+        "B": "Sie kann bei der Nachvollziehbarkeit der Risiko- und Maßnahmenbetrachtung helfen.",
+        "C": "Sie ist ein Verzeichnis zugelassener Prüfungsaufsichten.",
+        "D": "Sie ersetzt jede Begründung bei abweichender Umsetzung."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "IT-Grundschutz-Kompendium Überblick"
+    },
+    {
+      "id": "TF05-007",
+      "topic_nr": 5,
+      "topic": "IT-Grundschutz-Kompendium (Überblick)",
+      "level": "Experte",
+      "question": "Eine Anforderung wird im Check als „entbehrlich“ bewertet. Welche Dokumentation ist dafür fachlich sinnvoll?",
+      "answers": {
+        "A": "Warum die Anforderung für das konkrete Zielobjekt nicht relevant ist oder anders erfüllt wird",
+        "B": "Welche Alternativmaßnahmen oder Rahmenbedingungen das Risiko angemessen behandeln",
+        "C": "Eine pauschale Aussage, dass die Anforderung zu aufwendig sei",
+        "D": "Ein nachvollziehbarer Bezug zur Gefährdungslage oder zum Modell"
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 5 und 6"
+    },
+    {
+      "id": "TF05-008",
+      "topic_nr": 5,
+      "topic": "IT-Grundschutz-Kompendium (Überblick)",
+      "level": "Experte",
+      "question": "Ein Informationsverbund nutzt Virtualisierung, mobile Arbeit und einen Cloud-Dienst. Was bedeutet das für die Modellierung mit dem Kompendium?",
+      "answers": {
+        "A": "Neben allgemeinen Bausteinen können besondere oder zusätzliche Bausteine relevant werden.",
+        "B": "Die Auswahl der Bausteine sollte anhand der Zielobjekte und Nutzungsszenarien erfolgen.",
+        "C": "Spezielle Szenarien dürfen ignoriert werden, wenn ein Standard-Server-Baustein ausgewählt wurde.",
+        "D": "Ein Cloud-Dienst wird grundsätzlich nicht modelliert, weil er extern betrieben wird."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 5"
+    },
+    {
+      "id": "TF06-001",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Aussagen zur Festlegung des Informationsverbunds sind richtig?",
+      "answers": {
+        "A": "Der Geltungsbereich sollte fachlich sinnvoll abgegrenzt sein.",
+        "B": "Die Schnittstellen zu externen oder nicht betrachteten Bereichen sollten beschrieben werden.",
+        "C": "Ein einzelner Client ist in der Regel ein geeigneter alleiniger Informationsverbund für ein umfassendes Sicherheitskonzept.",
+        "D": "Wesentliche Geschäftsprozesse oder Fachaufgaben sollten im Geltungsbereich erkennbar sein."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.8"
+    },
+    {
+      "id": "TF06-002",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Zielobjekte werden in der Strukturanalyse typischerweise erfasst?",
+      "answers": {
+        "A": "Geschäftsprozesse und Informationen",
+        "B": "Anwendungen und IT-Systeme",
+        "C": "Nur rechtliche Anforderungen ohne Zielobjektbezug",
+        "D": "Nur externe Dienstleister, nicht aber interne Systeme"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 3"
+    },
+    {
+      "id": "TF06-003",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Wann ist eine Gruppierung gleichartiger Objekte in der Strukturanalyse sinnvoll?",
+      "answers": {
+        "A": "Wenn Objekte gleichartig genutzt werden und vergleichbare Sicherheitsanforderungen haben.",
+        "B": "Wenn dadurch die Übersicht verbessert wird, ohne relevante Unterschiede zu verdecken.",
+        "C": "Wenn dadurch Schutzbedarf und Verantwortlichkeiten nicht mehr nachvollzogen werden können.",
+        "D": "Wenn die Gruppierung dokumentiert und begründet wird."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 3.2"
+    },
+    {
+      "id": "TF06-004",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Angaben sind für Geschäftsprozesse in der Strukturanalyse besonders hilfreich?",
+      "answers": {
+        "A": "Name und kurze Beschreibung des Prozesses",
+        "B": "Fachverantwortliche Stelle oder Prozessverantwortliche",
+        "C": "Seriennummern von Arbeitsplatzmonitoren ohne Prozessbezug",
+        "D": "Detailkonfigurationen einzelner Clients ohne Bezug zum Prozess"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 3.3"
+    },
+    {
+      "id": "TF06-005",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Informationen gehören typischerweise zur Erfassung von Anwendungen?",
+      "answers": {
+        "A": "Name und Zweck der Anwendung",
+        "B": "Zuordnung zu Geschäftsprozessen oder Fachaufgaben",
+        "C": "Wichtige Schnittstellen oder Datenflüsse",
+        "D": "Die persönliche Bewertung einzelner Nutzer ohne fachlichen Kontext"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 3.4"
+    },
+    {
+      "id": "TF06-006",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welchen Nutzen hat ein Netzplan in der Strukturanalyse?",
+      "answers": {
+        "A": "Er macht Netzkomponenten und Kommunikationsbeziehungen sichtbar.",
+        "B": "Er unterstützt die Erkennung relevanter Abhängigkeiten.",
+        "C": "Er ersetzt die tabellarische Erfassung aller Zielobjekte vollständig.",
+        "D": "Er ersetzt die Schutzbedarfsfeststellung für Anwendungen."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 3.5"
+    },
+    {
+      "id": "TF06-007",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Angaben sind bei IT-Systemen typischerweise relevant?",
+      "answers": {
+        "A": "Name oder eindeutige Bezeichnung",
+        "B": "Systemplattform oder Systemtyp",
+        "C": "Aufstellungsort oder Zuordnung zu Räumen",
+        "D": "Lückenloser Verlauf jeder Administrationsanmeldung als Inventarpflicht"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 3.6"
+    },
+    {
+      "id": "TF06-008",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Warum werden Räume in der Strukturanalyse betrachtet?",
+      "answers": {
+        "A": "Weil Räume für Verfügbarkeit und Schutz von IT-Systemen relevant sein können.",
+        "B": "Weil jeder Raum automatisch denselben Schutzbedarf wie der wichtigste Prozess erhält.",
+        "C": "Weil Raumdaten die Modellierung der Anwendungen vollständig ersetzen.",
+        "D": "Weil Räume im IT-Grundschutz grundsätzlich wichtiger sind als Geschäftsprozesse."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 3.7"
+    },
+    {
+      "id": "TF06-009",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche der folgenden Bezeichnungen ist eine Schutzbedarfskategorie im Online-Kurs zur IT-Grundschutz-Methodik?",
+      "answers": {
+        "A": "Normal",
+        "B": "Mittelkritisch Plus",
+        "C": "Unbegrenzt",
+        "D": "Zertifiziert"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 4.2"
+    },
+    {
+      "id": "TF06-010",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Schutzziele werden bei der Schutzbedarfsfeststellung typischerweise betrachtet?",
+      "answers": {
+        "A": "Vertraulichkeit",
+        "B": "Integrität",
+        "C": "Verfügbarkeit",
+        "D": "Beliebtheit der Anwendung bei Nutzern"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 4"
+    },
+    {
+      "id": "TF06-011",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Wie entsteht der Schutzbedarf eines IT-Systems häufig?",
+      "answers": {
+        "A": "Durch Vererbung aus den Anwendungen, die auf dem System betrieben werden.",
+        "B": "Durch die Bedeutung der unterstützten Geschäftsprozesse.",
+        "C": "Ausschließlich durch den Anschaffungspreis des Systems.",
+        "D": "Automatisch durch das Betriebssystem, unabhängig von der Nutzung."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 4.5"
+    },
+    {
+      "id": "TF06-012",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Aussage beschreibt das Maximumprinzip bei der Schutzbedarfsfeststellung?",
+      "answers": {
+        "A": "Bei mehreren abhängigen Anwendungen kann der höchste Schutzbedarf auf das unterstützende System durchschlagen.",
+        "B": "Der niedrigste Schutzbedarf aller Anwendungen bestimmt immer den Schutzbedarf des Systems.",
+        "C": "Das Prinzip hilft, kritische Abhängigkeiten nicht zu unterschätzen.",
+        "D": "Es wird unabhängig von jeder fachlichen Begründung angewendet."
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 4.3 bis 4.5"
+    },
+    {
+      "id": "TF06-013",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Effekte sollten bei der Schutzbedarfsfeststellung zusätzlich zur einfachen Vererbung bedacht werden?",
+      "answers": {
+        "A": "Kumulation, wenn mehrere Schäden zusammen gravierender wirken.",
+        "B": "Verteilung, wenn ein Schaden durch Redundanz oder Aufteilung begrenzt wird.",
+        "C": "Automatische Reduzierung des Schutzbedarfs, sobald ein System neu ist.",
+        "D": "Pauschale Absenkung des Schutzbedarfs wegen vorhandener Standardmaßnahmen"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 4.3"
+    },
+    {
+      "id": "TF06-014",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Was geschieht in der Modellierung eines Informationsverbunds?",
+      "answers": {
+        "A": "Passende IT-Grundschutz-Bausteine werden Zielobjekten zugeordnet.",
+        "B": "Die Umsetzung aller Anforderungen wird ohne Prüfung als erfüllt angenommen.",
+        "C": "Die Schutzbedarfsfeststellung wird nachträglich gelöscht.",
+        "D": "Die Risikoanalyse wird unabhängig von besonderen Gefährdungen verboten."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 5"
+    },
+    {
+      "id": "TF06-015",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Was sollte die Dokumentation der Modellierung enthalten?",
+      "answers": {
+        "A": "Zuordnung von Zielobjekten zu Bausteinen",
+        "B": "Begründungen für besondere Zuordnungen oder Abweichungen",
+        "C": "Nur eine alphabetische Liste aller Mitarbeiter",
+        "D": "Ausschließlich Screenshots der Administrationsoberfläche"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 5.4"
+    },
+    {
+      "id": "TF06-016",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Aussage zum Anpassen von Anforderungen ist richtig?",
+      "answers": {
+        "A": "Anforderungen können auf die konkrete Situation bezogen interpretiert und konkretisiert werden.",
+        "B": "Abweichungen sollten begründet und dokumentiert werden.",
+        "C": "Anforderungen dürfen ohne Begründung gestrichen werden, wenn sie unbequem sind.",
+        "D": "Eine Anpassung darf den Schutzzweck nicht mehr erkennen lassen."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 5.5"
+    },
+    {
+      "id": "TF06-017",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Was bedeutet die Bewertung „entbehrlich“ im IT-Grundschutz-Check nicht?",
+      "answers": {
+        "A": "Die Anforderung ist für das konkrete Zielobjekt nicht relevant oder anderweitig angemessen abgedeckt.",
+        "B": "Die Bewertung muss nachvollziehbar begründet werden.",
+        "C": "Die Anforderung kann ohne Begründung ignoriert werden.",
+        "D": "Sie kann mit Alternativmaßnahmen zusammenhängen."
+      },
+      "solution": [
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 6"
+    },
+    {
+      "id": "TF06-018",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Erfüllungsgrade werden im IT-Grundschutz-Check mindestens für nicht vollständig erfüllte oder nicht benötigte Anforderungen unterschieden?",
+      "answers": {
+        "A": "Teilweise",
+        "B": "Nein",
+        "C": "Zertifiziert",
+        "D": "Veröffentlicht"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 6"
+    },
+    {
+      "id": "TF06-019",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Wann sollte eine ergänzende Risikoanalyse in der Umsetzung berücksichtigt werden?",
+      "answers": {
+        "A": "Bei erhöhtem Schutzbedarf oder besonderen Gefährdungen",
+        "B": "Wenn die vorhandenen Anforderungen ein Risiko nicht ausreichend behandeln",
+        "C": "Immer erst nach erfolgreicher Zertifizierung",
+        "D": "Nur wenn keine Strukturanalyse durchgeführt wurde"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 7"
+    },
+    {
+      "id": "TF06-020",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Optionen gehören grundsätzlich zur Risikobehandlung?",
+      "answers": {
+        "A": "Risiko vermeiden",
+        "B": "Risiko vermindern",
+        "C": "Risiko übertragen oder akzeptieren",
+        "D": "Risiko aus der Dokumentation entfernen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.9"
+    },
+    {
+      "id": "TF06-021",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Was wird bei der Umsetzungsplanung konsolidiert?",
+      "answers": {
+        "A": "Offene Maßnahmen aus dem IT-Grundschutz-Check",
+        "B": "Zusatzmaßnahmen aus der Risikoanalyse",
+        "C": "Abgeschlossene Maßnahmen ohne offenen Handlungsbedarf",
+        "D": "Maßnahmen anderer Projekte ohne Bezug zum Sicherheitskonzept"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 8.1"
+    },
+    {
+      "id": "TF06-022",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Angaben gehören in eine belastbare Maßnahmenplanung?",
+      "answers": {
+        "A": "Verantwortliche",
+        "B": "Prioritäten und Termine",
+        "C": "Ungeprüfte Annahmen ohne Entscheidungsbezug",
+        "D": "Eine Bestätigung, dass keine Nachweise benötigt werden"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 8"
+    },
+    {
+      "id": "TF06-023",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Warum ist Versionierung in der Umsetzung wichtig?",
+      "answers": {
+        "A": "Sie macht Änderungen an Modell, Check, Risiken und Maßnahmen nachvollziehbar.",
+        "B": "Sie unterstützt Audits und Reviews.",
+        "C": "Sie verhindert, dass Entscheidungen später unbegründet wirken.",
+        "D": "Sie ersetzt die fachliche Prüfung der Inhalte."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.1 und 9"
+    },
+    {
+      "id": "TF06-024",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Basis",
+      "question": "Welche Bestandteile gehören zu einem Sicherheitskonzept im IT-Grundschutz-Kontext?",
+      "answers": {
+        "A": "Geltungsbereich und betrachtete Zielobjekte",
+        "B": "Ausgewählte Anforderungen und Maßnahmen",
+        "C": "Regelungen zur Umsetzung und Überprüfung",
+        "D": "Ein ausschließlich werblicher Überblick ohne Prüfbarkeit"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.8 und 5"
+    },
+    {
+      "id": "TF06-025",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Experte",
+      "question": "Eine Organisation fasst 120 Arbeitsplatzrechner zu einer Gruppe zusammen. Wann ist diese Gruppierung vertretbar?",
+      "answers": {
+        "A": "Wenn Nutzung, Schutzbedarf und technische Ausprägung ausreichend vergleichbar sind.",
+        "B": "Wenn Abweichungen innerhalb der Gruppe dokumentiert oder getrennt behandelt werden.",
+        "C": "Wenn die Gruppierung nur gewählt wird, um einzelne hochkritische Clients zu verstecken.",
+        "D": "Wenn die Gruppierung die Modellierung und den Check nachvollziehbar vereinfacht."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 3.2"
+    },
+    {
+      "id": "TF06-026",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Experte",
+      "question": "Ein Sicherheitskonzept soll nur einen Datenbankserver betrachten, obwohl dieser mehrere zentrale Geschäftsprozesse unterstützt. Welche Bedenken sind berechtigt?",
+      "answers": {
+        "A": "Der Informationsverbund könnte fachlich zu eng gewählt sein.",
+        "B": "Abhängigkeiten zu Anwendungen, Prozessen, Räumen und Schnittstellen könnten fehlen.",
+        "C": "Ein einzelnes technisches Objekt ist für ein umfassendes Sicherheitskonzept oft kein sinnvoller alleiniger Untersuchungsgegenstand.",
+        "D": "Ein enger Scope ist immer unzulässig, auch für klar abgegrenzte Teilbereiche."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.8"
+    },
+    {
+      "id": "TF06-027",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Experte",
+      "question": "Ein Geschäftsprozess verarbeitet vertrauliche Kundenzeichnungen. Bei einem Verlust der Vertraulichkeit drohen Vertragsstrafen und Vertrauensverlust. Welche Folgerungen sind naheliegend?",
+      "answers": {
+        "A": "Wenn Nutzung, Schutzbedarf und technische Ausprägung ausreichend vergleichbar sind.",
+        "B": "Wenn Abweichungen innerhalb der Gruppe dokumentiert oder getrennt behandelt werden.",
+        "C": "Wenn die Gruppierung nur gewählt wird, um einzelne hochkritische Clients zu verstecken.",
+        "D": "Wenn dadurch alle Interviews im Check entfallen."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 4"
+    },
+    {
+      "id": "TF06-028",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Experte",
+      "question": "Ein Server betreibt drei Anwendungen: zwei mit normalem Schutzbedarf und eine mit sehr hohem Schutzbedarf für Verfügbarkeit. Was ist zu prüfen?",
+      "answers": {
+        "A": "Ob das Maximumprinzip den Schutzbedarf des Servers erhöht.",
+        "B": "Ob technische oder organisatorische Trennung den vererbten Schutzbedarf beeinflussen kann.",
+        "C": "Ob die Anwendung mit sehr hohem Schutzbedarf für die Systembewertung ignoriert werden darf.",
+        "D": "Ob Abhängigkeiten zu Räumen und Verbindungen ebenfalls relevant sind."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 4.5"
+    },
+    {
+      "id": "TF06-029",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Experte",
+      "question": "Im IT-Grundschutz-Check werden mehrere Standard-Anforderungen als „teilweise“ bewertet. Was folgt daraus sinnvollerweise?",
+      "answers": {
+        "A": "Die offenen Anteile werden als Maßnahmen oder Aufgaben konkretisiert.",
+        "B": "Die Bewertung wird mit Nachweisen und Begründungen dokumentiert.",
+        "C": "Die Anforderungen gelten automatisch als vollständig erfüllt.",
+        "D": "Priorisierung und Terminierung erfolgen in der Umsetzungsplanung."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 6 und 8"
+    },
+    {
+      "id": "TF06-030",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Experte",
+      "question": "Ein externer Cloud-Dienst wird für eine kritische Anwendung genutzt. Welche Aspekte sollten in der Modellierung und Umsetzung beachtet werden?",
+      "answers": {
+        "A": "Relevante Bausteine und besondere Nutzungsszenarien werden geprüft.",
+        "B": "Schnittstellen, Verantwortlichkeiten und Nachweise des Dienstleisters werden berücksichtigt.",
+        "C": "Der Dienst bleibt außerhalb des Modells, weil er nicht im eigenen Rechenzentrum betrieben wird.",
+        "D": "Risiken aus Auslagerung und Abhängigkeit werden bei Bedarf analysiert."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 5 und 7"
+    },
+    {
+      "id": "TF06-031",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Experte",
+      "question": "Nach einer Umorganisation ändern sich Prozessverantwortliche und ein Standort wird geschlossen. Welche Auswirkungen auf die IT-Grundschutz-Unterlagen sind wahrscheinlich?",
+      "answers": {
+        "A": "Die Strukturanalyse und Zielobjektlisten müssen geprüft werden.",
+        "B": "Schutzbedarf, Modellierung und Maßnahmenplanung können anzupassen sein.",
+        "C": "Frühere Entscheidungen bleiben immer unverändert gültig.",
+        "D": "Reviews oder Re-Checks können erforderlich werden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF06-032",
+      "topic_nr": 6,
+      "topic": "Umsetzung der IT-Grundschutz-Vorgehensweise",
+      "level": "Experte",
+      "question": "Bei der Umsetzungsplanung konkurrieren eine schnell wirksame Maßnahme mit niedrigem Aufwand und eine teure Maßnahme gegen ein sehr hohes Risiko. Welche Vorgehensweise ist fachlich belastbar?",
+      "answers": {
+        "A": "Priorisierung berücksichtigt Risiko, Schutzbedarf, Aufwand und Abhängigkeiten gemeinsam.",
+        "B": "Quick Wins können umgesetzt werden, ersetzen aber nicht die Behandlung kritischer Risiken.",
+        "C": "Die teuerste Maßnahme hat immer Vorrang.",
+        "D": "Entscheidungen und Rest-Risiken werden nachvollziehbar dokumentiert."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 8"
+    },
+    {
+      "id": "TF07-001",
+      "topic_nr": 7,
+      "topic": "IT-Grundschutz-Check",
+      "level": "Basis",
+      "question": "Welches Ziel hat der IT-Grundschutz-Check?",
+      "answers": {
+        "A": "Er stellt fest, inwieweit Anforderungen aus dem IT-Grundschutz-Modell umgesetzt sind.",
+        "B": "Er liefert eine Grundlage für Verbesserungs- und Umsetzungsmaßnahmen.",
+        "C": "Er ersetzt die Strukturanalyse.",
+        "D": "Er ersetzt die Verantwortung für die Maßnahmenumsetzung."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 6"
+    },
+    {
+      "id": "TF07-002",
+      "topic_nr": 7,
+      "topic": "IT-Grundschutz-Check",
+      "level": "Basis",
+      "question": "Welche Inputs sind für einen IT-Grundschutz-Check besonders wichtig?",
+      "answers": {
+        "A": "Das IT-Grundschutz-Modell mit den relevanten Anforderungen",
+        "B": "Nachweise zur Umsetzung von Maßnahmen",
+        "C": "Ein Zertifikat, das bereits vor dem Check ausgestellt wurde",
+        "D": "Ungeprüfte Systemlisten ohne Bezug zum Modell"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 6"
+    },
+    {
+      "id": "TF07-003",
+      "topic_nr": 7,
+      "topic": "IT-Grundschutz-Check",
+      "level": "Basis",
+      "question": "Welche Methoden können bei der Durchführung eines IT-Grundschutz-Checks eingesetzt werden?",
+      "answers": {
+        "A": "Dokumentenprüfung",
+        "B": "Interviews mit Verantwortlichen",
+        "C": "Vor-Ort-Begehungen oder Einsicht in Nachweise",
+        "D": "Ausschließlich automatisierte Schwachstellenscans ohne Kontext"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 6.2"
+    },
+    {
+      "id": "TF07-004",
+      "topic_nr": 7,
+      "topic": "IT-Grundschutz-Check",
+      "level": "Basis",
+      "question": "Was bedeutet die Bewertung „ja“ im IT-Grundschutz-Check?",
+      "answers": {
+        "A": "Die betrachtete Anforderung ist angemessen umgesetzt.",
+        "B": "Die Bewertung sollte durch geeignete Nachweise plausibel sein.",
+        "C": "Für diese Anforderung wurde automatisch eine Risikoakzeptanz erklärt.",
+        "D": "Die Anforderung muss nie wieder betrachtet werden."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 6.4"
+    },
+    {
+      "id": "TF07-005",
+      "topic_nr": 7,
+      "topic": "IT-Grundschutz-Check",
+      "level": "Basis",
+      "question": "Was bedeutet die Bewertung „teilweise“?",
+      "answers": {
+        "A": "Die Anforderung ist nicht vollständig erfüllt.",
+        "B": "Die Anforderung gilt im Ergebnis ohne weitere Maßnahmen als vollständig erfüllt.",
+        "C": "Die Bewertung darf nicht dokumentiert werden.",
+        "D": "Teilweise bedeutet im Check dasselbe wie „entbehrlich“."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 6.4"
+    },
+    {
+      "id": "TF07-006",
+      "topic_nr": 7,
+      "topic": "IT-Grundschutz-Check",
+      "level": "Basis",
+      "question": "Welche Aussagen zur Bewertung „nein“ sind richtig?",
+      "answers": {
+        "A": "Die Anforderung ist nicht umgesetzt oder nicht nachweisbar erfüllt.",
+        "B": "Die Bewertung sollte begründet werden.",
+        "C": "Daraus können Maßnahmen für die Umsetzungsplanung entstehen.",
+        "D": "Sie bedeutet, dass das Zielobjekt aus dem Informationsverbund entfernt werden muss."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 6.4"
+    },
+    {
+      "id": "TF07-007",
+      "topic_nr": 7,
+      "topic": "IT-Grundschutz-Check",
+      "level": "Basis",
+      "question": "Welche Angaben sollten in der Check-Dokumentation enthalten sein?",
+      "answers": {
+        "A": "Bewertung je Anforderung",
+        "B": "Begründung und relevante Nachweise",
+        "C": "Offene Punkte nur mündlich und ohne Protokoll",
+        "D": "Unprotokollierte Nebenabsprachen als alleinige Grundlage"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 6.3"
+    },
+    {
+      "id": "TF07-008",
+      "topic_nr": 7,
+      "topic": "IT-Grundschutz-Check",
+      "level": "Basis",
+      "question": "Welche Ergebnisse können aus einem IT-Grundschutz-Check hervorgehen?",
+      "answers": {
+        "A": "Übersicht erfüllter und nicht erfüllter Anforderungen",
+        "B": "Liste offener Maßnahmen",
+        "C": "Hinweise für Risikoanalyse und Umsetzungsplanung",
+        "D": "Automatische Entbindung der Leitung von Verantwortung"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 6"
+    },
+    {
+      "id": "TF07-009",
+      "topic_nr": 7,
+      "topic": "IT-Grundschutz-Check",
+      "level": "Basis",
+      "question": "Wann ist ein Re-Check sinnvoll?",
+      "answers": {
+        "A": "Nach Umsetzung wesentlicher Maßnahmen",
+        "B": "Nach größeren Änderungen im Informationsverbund",
+        "C": "Vor einer Prüfung oder zur Fortschrittskontrolle",
+        "D": "Nie, weil ein einmaliger Check dauerhaft gültig bleibt"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF07-010",
+      "topic_nr": 7,
+      "topic": "IT-Grundschutz-Check",
+      "level": "Experte",
+      "question": "Eine Anforderung wird als „entbehrlich“ bewertet, weil ein anderes Verfahren denselben Schutzzweck erfüllt. Was ist wichtig?",
+      "answers": {
+        "A": "Die Alternativmaßnahme und ihre Wirksamkeit werden nachvollziehbar beschrieben.",
+        "B": "Der Bezug zur konkreten Situation des Zielobjekts wird dokumentiert.",
+        "C": "Die Bewertung wird verwendet, um den Check ohne Nachweise zu verkürzen.",
+        "D": "Rest- oder Zusatzrisiken werden bei Bedarf betrachtet."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 6"
+    },
+    {
+      "id": "TF07-011",
+      "topic_nr": 7,
+      "topic": "IT-Grundschutz-Check",
+      "level": "Experte",
+      "question": "In einem Check bewerten verschiedene Interviewer dieselbe Anforderung unterschiedlich. Welche Maßnahmen verbessern die Qualität?",
+      "answers": {
+        "A": "Einheitliche Bewertungskriterien und Begriffsdefinitionen verwenden",
+        "B": "Nachweise referenzieren und bewerten",
+        "C": "Bewertungen ohne Abstimmung übernehmen, um Zeit zu sparen",
+        "D": "Plausibilisierung oder Vier-Augen-Prinzip einsetzen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 6"
+    },
+    {
+      "id": "TF07-012",
+      "topic_nr": 7,
+      "topic": "IT-Grundschutz-Check",
+      "level": "Experte",
+      "question": "Welche Beziehung besteht zwischen IT-Grundschutz-Check und Risikoanalyse?",
+      "answers": {
+        "A": "Check-Ergebnisse können Hinweise auf Rest- oder Zusatzrisiken liefern.",
+        "B": "Der Check kann Input für die Bewertung und Behandlung von Risiken sein.",
+        "C": "Eine Risikoanalyse ersetzt immer den Check vollständig.",
+        "D": "Nicht erfüllte Anforderungen können in Maßnahmen oder Risikoentscheidungen münden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 6 und 7"
+    },
+    {
+      "id": "TF08-001",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Welches Ziel verfolgt eine Risikoanalyse im IT-Grundschutz-Kontext?",
+      "answers": {
+        "A": "Risiken nachvollziehbar identifizieren und bewerten",
+        "B": "Begründete Entscheidungen zur Risikobehandlung ermöglichen",
+        "C": "Eine Zertifizierung ohne weitere Prüfung automatisch auslösen",
+        "D": "Den Geltungsbereich nachträglich ungeprüft erweitern"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 7"
+    },
+    {
+      "id": "TF08-002",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Welche Anlässe sprechen für eine ergänzende Risikoanalyse?",
+      "answers": {
+        "A": "Erhöhter oder sehr hoher Schutzbedarf",
+        "B": "Der Wunsch, die Strukturanalyse zu umgehen",
+        "C": "Eine rein kosmetische Änderung ohne Sicherheitsbezug",
+        "D": "Eine bereits wirksam behandelte Standardgefährdung ohne Besonderheiten"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 7"
+    },
+    {
+      "id": "TF08-003",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Welche organisatorischen Festlegungen sollten vor einer Risikoanalyse getroffen werden?",
+      "answers": {
+        "A": "Methode und Bewertungsskalen",
+        "B": "Rollen und Entscheidungsbefugnisse",
+        "C": "Akzeptanzkriterien oder Risikotoleranzen",
+        "D": "Bewertungskriterien, die erst nach der Entscheidung informell festgelegt werden"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.1"
+    },
+    {
+      "id": "TF08-004",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Welche Zielobjekte können Gegenstand einer Risikoanalyse sein?",
+      "answers": {
+        "A": "Anwendungen",
+        "B": "IT-Systeme",
+        "C": "Räume oder Kommunikationsverbindungen",
+        "D": "Nur einzelne Softwarefehler, nie Zielobjekte des Informationsverbunds"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.2"
+    },
+    {
+      "id": "TF08-005",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Was sind elementare Gefährdungen im IT-Grundschutz?",
+      "answers": {
+        "A": "Typisierte Gefährdungen, die als Ausgangspunkt für die Betrachtung dienen können",
+        "B": "Eine strukturierte Hilfe, um Bedrohungen und Ursachen nicht zu übersehen",
+        "C": "Eine Liste bereits akzeptierter Restrisiken",
+        "D": "Ein Ersatz für jede institutionsspezifische Prüfung"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.3"
+    },
+    {
+      "id": "TF08-006",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Wozu dient eine Gefährdungsübersicht?",
+      "answers": {
+        "A": "Sie ordnet relevante Gefährdungen den betrachteten Zielobjekten zu.",
+        "B": "Sie ersetzt die Festlegung der Risikobehandlung vollständig.",
+        "C": "Sie ersetzt die Schutzbedarfsfeststellung.",
+        "D": "Sie ist nur für Zertifizierer sichtbar und nicht für die Institution nutzbar."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.4 und 7.5"
+    },
+    {
+      "id": "TF08-007",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Warum werden Gefährdungsübersichten ergänzt?",
+      "answers": {
+        "A": "Weil nicht jede besondere Situation vollständig durch allgemeine Gefährdungen abgedeckt ist.",
+        "B": "Weil branchenspezifische, technische oder organisatorische Besonderheiten relevant sein können.",
+        "C": "Weil eine Ergänzung jede weitere Bewertung überflüssig macht.",
+        "D": "Weil neue oder besondere Bedrohungen berücksichtigt werden sollen."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.5"
+    },
+    {
+      "id": "TF08-008",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Welche Dimensionen werden bei einer einfachen Risikobewertung häufig betrachtet?",
+      "answers": {
+        "A": "Eintrittshäufigkeit oder Eintrittswahrscheinlichkeit",
+        "B": "Schadensauswirkung",
+        "C": "Beliebtheit des Systems im Unternehmen",
+        "D": "Aufwand für die spätere Dokumentation des Risikos als Risikodimension"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.6 und 7.7"
+    },
+    {
+      "id": "TF08-009",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Welche Rolle hat eine Risikomatrix?",
+      "answers": {
+        "A": "Sie unterstützt die Einstufung von Risiken anhand definierter Kriterien.",
+        "B": "Sie ersetzt jede fachliche Begründung der Bewertung.",
+        "C": "Sie macht Risikoentscheidungen der Leitung überflüssig.",
+        "D": "Sie wird ausschließlich zur grafischen Gestaltung des Berichts genutzt."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.8"
+    },
+    {
+      "id": "TF08-010",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Was bedeutet Risikoakzeptanz?",
+      "answers": {
+        "A": "Ein verbleibendes Risiko wird bewusst und begründet getragen.",
+        "B": "Die Entscheidung sollte durch befugte Stellen getroffen werden.",
+        "C": "Das Risiko wird aus dem Register gelöscht, damit es nicht mehr sichtbar ist.",
+        "D": "Akzeptanzkriterien sollten berücksichtigt werden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.9"
+    },
+    {
+      "id": "TF08-011",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Welche Formen der Risikobehandlung sind grundsätzlich möglich?",
+      "answers": {
+        "A": "Vermeidung",
+        "B": "Verminderung",
+        "C": "Übertragung oder Akzeptanz",
+        "D": "Verschweigen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.9"
+    },
+    {
+      "id": "TF08-012",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Welche Informationen gehören in ein Risikoregister?",
+      "answers": {
+        "A": "Beschreibung des Risikos und betroffener Zielobjekte",
+        "B": "Bewertung und Begründung",
+        "C": "Unbelegte Vermutungen ohne Datum und Verantwortlichkeit",
+        "D": "Bewertungen ohne Verantwortliche und Zeitbezug"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 7"
+    },
+    {
+      "id": "TF08-013",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Welche Rolle spielen Rest-Risiken?",
+      "answers": {
+        "A": "Sie bleiben nach Umsetzung oder Entscheidung sichtbar.",
+        "B": "Sie müssen bewertet und von zuständigen Stellen getragen werden.",
+        "C": "Sie verschwinden automatisch durch Dokumentation einer Maßnahme.",
+        "D": "Sie können in Reviews erneut betrachtet werden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.10"
+    },
+    {
+      "id": "TF08-014",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Welche Quellen können eine Risikoanalyse speisen?",
+      "answers": {
+        "A": "Schutzbedarfsfeststellung",
+        "B": "IT-Grundschutz-Check",
+        "C": "Aktuelle oder besondere Gefährdungslage",
+        "D": "Hinweise ohne Bezug zu Zielobjekten oder Schutzbedarf"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 7"
+    },
+    {
+      "id": "TF08-015",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Basis",
+      "question": "Was sollte nach Abschluss der Risikoanalyse passieren?",
+      "answers": {
+        "A": "Zusätzliche Maßnahmen werden in die Umsetzungsplanung überführt.",
+        "B": "Risikoentscheidungen werden dokumentiert.",
+        "C": "Akzeptierte Rest-Risiken werden vergessen.",
+        "D": "Ergebnisse werden aus dem ISMS entfernt, sobald die Analyse abgeschlossen ist."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.10 und 9"
+    },
+    {
+      "id": "TF08-016",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Experte",
+      "question": "Ein Cloud-Dienst verarbeitet kritische Daten, der Anbieter liefert aber nur eingeschränkte Nachweise. Welche Risiken sind zu betrachten?",
+      "answers": {
+        "A": "Abhängigkeit von externen Leistungen und Verfügbarkeit",
+        "B": "Nachvollziehbarkeit von Sicherheitsmaßnahmen beim Dienstleister",
+        "C": "Vertraulichkeit und Integrität der verarbeiteten Informationen",
+        "D": "Ausschließlich der Einkaufspreis des Dienstes"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Transfer IT-Grundschutz Risikoanalyse"
+    },
+    {
+      "id": "TF08-017",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Experte",
+      "question": "Wer sollte die Akzeptanz eines erheblichen Rest-Risikos tragen?",
+      "answers": {
+        "A": "Eine dazu befugte verantwortliche Stelle, häufig mit Managementeinbindung",
+        "B": "Beliebige technische Administratoren ohne Mandat",
+        "C": "Der fachliche Risikoeigner oder eine festgelegte Entscheidungsrolle",
+        "D": "Niemand, wenn das Risiko in einer Tabelle dokumentiert ist"
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 7.9"
+    },
+    {
+      "id": "TF08-018",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Experte",
+      "question": "Eine Standard-Anforderung wird nicht umgesetzt, stattdessen gibt es eine technische Alternativmaßnahme. Was ist zu prüfen?",
+      "answers": {
+        "A": "Ob die Alternativmaßnahme das relevante Risiko wirksam reduziert.",
+        "B": "Ob die Entscheidung und die Begründung nachvollziehbar dokumentiert sind.",
+        "C": "Ob ein Bezug zu den relevanten Gefährdungen hergestellt werden kann.",
+        "D": "Ob die Alternativmaßnahme allein deshalb genügt, weil sie teurer ist."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 5 bis 7"
+    },
+    {
+      "id": "TF08-019",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Experte",
+      "question": "Mehrere mittel bewertete Risiken betreffen dieselbe Anwendung und denselben Geschäftsprozess. Welche Betrachtung ist wichtig?",
+      "answers": {
+        "A": "Kumulative Effekte können die Gesamtsituation verschärfen.",
+        "B": "Abhängigkeiten und gemeinsame Ursachen sollten geprüft werden.",
+        "C": "Risiken dürfen nur einzeln betrachtet werden; Zusammenhänge sind methodisch unzulässig.",
+        "D": "Die Maßnahmenpriorisierung kann sich durch Wechselwirkungen ändern."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 4 und 7"
+    },
+    {
+      "id": "TF08-020",
+      "topic_nr": 8,
+      "topic": "Risikoanalyse",
+      "level": "Experte",
+      "question": "Welche Ereignisse sollten eine bestehende Risikoanalyse typischerweise erneut auslösen oder aktualisieren?",
+      "answers": {
+        "A": "Wesentliche technische oder organisatorische Änderungen",
+        "B": "Neue relevante Bedrohungen oder Schwachstellen",
+        "C": "Der bloße Wechsel der Schriftart in einer Richtlinie",
+        "D": "Ein bereits geprüfter Zustand ohne Änderung und ohne neue Erkenntnisse"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF09-001",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Was bedeutet Konsolidierung von Maßnahmen in der Umsetzungsplanung?",
+      "answers": {
+        "A": "Maßnahmen aus Check, Risikoanalyse und anderen Quellen werden zusammengeführt.",
+        "B": "Doppelte, ähnliche oder widersprüchliche Maßnahmen werden bereinigt.",
+        "C": "Alle Maßnahmen werden unabhängig vom Risiko gestrichen.",
+        "D": "Die Maßnahmen werden ohne Verantwortliche archiviert."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 8.1"
+    },
+    {
+      "id": "TF09-002",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Welche Faktoren sind bei der Aufwandsschätzung für Maßnahmen relevant?",
+      "answers": {
+        "A": "Benötigte personelle Ressourcen",
+        "B": "Technischer und organisatorischer Umsetzungsaufwand",
+        "C": "Kosten und zeitliche Abhängigkeiten",
+        "D": "Die Reihenfolge der Fragen in einer Schulungsprüfung"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 8.2"
+    },
+    {
+      "id": "TF09-003",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Welche Kriterien unterstützen eine fachliche Priorisierung von Maßnahmen?",
+      "answers": {
+        "A": "Risiko und Schutzbedarf",
+        "B": "Alphabetische Reihenfolge der Maßnahmentitel als alleiniger Maßstab",
+        "C": "Die persönliche Vorliebe des Projektteams ohne Risikobezug",
+        "D": "Leichte Umsetzbarkeit als alleiniger Priorisierungsmaßstab"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 8.3"
+    },
+    {
+      "id": "TF09-004",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Warum ist eine sinnvolle Umsetzungsreihenfolge wichtig?",
+      "answers": {
+        "A": "Einige Maßnahmen schaffen Voraussetzungen für andere Maßnahmen.",
+        "B": "Sicherheitsrelevante Lücken können risikoorientiert schneller geschlossen werden.",
+        "C": "Sie macht Verantwortlichkeiten überflüssig.",
+        "D": "Sie ersetzt die Freigabe von Änderungen."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 8.3"
+    },
+    {
+      "id": "TF09-005",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Welche Angaben sollten Verantwortlichkeiten in einem Umsetzungsplan klären?",
+      "answers": {
+        "A": "Wer für Umsetzung oder Koordination zuständig ist",
+        "B": "Wer fachlich entscheidet oder abnimmt",
+        "C": "Nur den Namen der Person, die die Tabelle erstellt hat",
+        "D": "Zuständigkeiten erst nach Fristablauf klären"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 8.3"
+    },
+    {
+      "id": "TF09-006",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Welche Terminangaben sind in einem Maßnahmenplan sinnvoll?",
+      "answers": {
+        "A": "Zieltermine oder Meilensteine",
+        "B": "Abhängigkeiten von Change-Fenstern oder Projekten",
+        "C": "Regelmäßige Status- oder Reviewzeitpunkte",
+        "D": "Keine Termine, damit Maßnahmen flexibel bleiben"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 8.3 und 8.5"
+    },
+    {
+      "id": "TF09-007",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Was sind begleitende Maßnahmen in der Umsetzungsplanung?",
+      "answers": {
+        "A": "Kommunikations- und Schulungsmaßnahmen",
+        "B": "Change-Management-Aktivitäten",
+        "C": "Regelungen zur Nachweisführung",
+        "D": "Maßnahmen ohne Bezug zur Sicherheitskonzeption"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 8.4"
+    },
+    {
+      "id": "TF09-008",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Was kennzeichnet einen Quick Win in der Umsetzungsplanung?",
+      "answers": {
+        "A": "Er ist mit vergleichsweise geringem Aufwand umsetzbar.",
+        "B": "Er ersetzt automatisch alle langfristigen Maßnahmen.",
+        "C": "Er darf nicht dokumentiert werden, weil er schnell umgesetzt wird.",
+        "D": "Er ist nur dann zulässig, wenn kein Risiko besteht."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 8"
+    },
+    {
+      "id": "TF09-009",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Welche Rolle spielt Budgetierung in der Umsetzungsplanung?",
+      "answers": {
+        "A": "Sie sichert Ressourcen für priorisierte Maßnahmen.",
+        "B": "Sie macht Entscheidungen der Leitung nachvollziehbarer.",
+        "C": "Sie beeinflusst Machbarkeit, Reihenfolge und Phasenplanung.",
+        "D": "Sie ersetzt die fachliche Bewertung des Risikos."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 8"
+    },
+    {
+      "id": "TF09-010",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Welche Inhalte gehören typischerweise in die Dokumentation der Umsetzungsplanung?",
+      "answers": {
+        "A": "Maßnahme und Ziel der Maßnahme",
+        "B": "Priorität, Verantwortliche, Termin und Status",
+        "C": "Maßnahmen ohne Bezug zu Ziel oder Anforderung",
+        "D": "Statusangaben ohne Datum und ohne Verantwortlichen"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 8.5"
+    },
+    {
+      "id": "TF09-011",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Wie sollte der Umsetzungsstatus verfolgt werden?",
+      "answers": {
+        "A": "Regelmäßig und nachvollziehbar",
+        "B": "Mit klaren Statuswerten oder Fortschrittsangaben",
+        "C": "Mit Eskalation bei Hindernissen oder Terminrisiken",
+        "D": "Nur mündlich ohne Protokoll"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 8 und 9"
+    },
+    {
+      "id": "TF09-012",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Welche Nachweise können für die Umsetzung von Maßnahmen relevant sein?",
+      "answers": {
+        "A": "Freigegebene Richtlinien oder Konzepte",
+        "B": "Konfigurations- oder Testnachweise",
+        "C": "Unsignierte Behauptungen ohne Datum oder Verantwortlichkeit",
+        "D": "Geplante Umsetzung ohne Abnahme oder Beleg"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 8 und 13"
+    },
+    {
+      "id": "TF09-013",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Warum sollte die Umsetzungsplanung mit der Aufrechterhaltung des ISMS verbunden werden?",
+      "answers": {
+        "A": "Um Wirksamkeit und Aktualität später prüfen zu können.",
+        "B": "Um abgeschlossene Maßnahmen bei Änderungen erneut bewerten zu können.",
+        "C": "Um Erkenntnisse aus Reviews und Vorfällen zurückzuführen.",
+        "D": "Um nach der ersten Umsetzung jede weitere Dokumentation zu beenden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF09-014",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Welche Risiken bestehen bei einer schlechten Umsetzungsplanung?",
+      "answers": {
+        "A": "Unklare Verantwortlichkeiten",
+        "B": "Nicht eingeplante Abhängigkeiten",
+        "C": "Überlastete Ressourcen",
+        "D": "Bessere Nachvollziehbarkeit der Entscheidungen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 8"
+    },
+    {
+      "id": "TF09-015",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Basis",
+      "question": "Was ist bei Maßnahmen zu Anforderungen mit Bewertung „teilweise“ wichtig?",
+      "answers": {
+        "A": "Offene Teilaspekte werden konkret beschrieben.",
+        "B": "Es wird festgelegt, was bis wann durch wen nachgebessert wird.",
+        "C": "Die Maßnahme wird als erledigt betrachtet, ohne die offene Lücke zu schließen.",
+        "D": "Die Nachprüfung oder Abnahme kann eingeplant werden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 6 und 8"
+    },
+    {
+      "id": "TF09-016",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Experte",
+      "question": "Eine Maßnahme schließt ein hohes Risiko, benötigt aber einen Dienstleister mit langer Vorlaufzeit. Eine andere Maßnahme ist sofort umsetzbar, senkt aber nur ein mittleres Risiko. Welche Planung ist sachgerecht?",
+      "answers": {
+        "A": "Die langfristige Maßnahme wird früh eingeplant, damit Abhängigkeiten berücksichtigt werden.",
+        "B": "Die sofort wirksame Maßnahme kann als Quick Win parallel umgesetzt werden.",
+        "C": "Die Maßnahme gegen das hohe Risiko wird gestrichen, weil sie nicht sofort möglich ist.",
+        "D": "Das hohe Risiko wird ohne Entscheidung aus dem Plan entfernt."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 8"
+    },
+    {
+      "id": "TF09-017",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Experte",
+      "question": "Eine technische Maßnahme kann erst nach Anpassung einer Richtlinie und Schulung der Administratoren umgesetzt werden. Was folgt für den Maßnahmenplan?",
+      "answers": {
+        "A": "Organisatorische und technische Abhängigkeiten werden sichtbar gemacht.",
+        "B": "Vorbereitende Maßnahmen erhalten eigene Verantwortliche und Termine.",
+        "C": "Die technische Maßnahme wird ohne Voraussetzungen geplant, um den Plan kurz zu halten.",
+        "D": "Die Reihenfolge wird so gewählt, dass Umsetzung und Wirksamkeit realistisch sind."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 8"
+    },
+    {
+      "id": "TF09-018",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Experte",
+      "question": "Das Team hat zu wenig Kapazität, um alle Maßnahmen gleichzeitig umzusetzen. Welche Vorgehensweisen sind angemessen?",
+      "answers": {
+        "A": "Risikoorientierte Phasenbildung",
+        "B": "Anpassung der Prioritäten mit Managemententscheidung",
+        "C": "Prüfung externer Unterstützung oder zusätzlicher Ressourcen",
+        "D": "Alle Maßnahmen ohne Begründung auf unbestimmte Zeit verschieben"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 8"
+    },
+    {
+      "id": "TF09-019",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Experte",
+      "question": "Wie lässt sich die Wirksamkeit einer umgesetzten Sicherheitsmaßnahme sinnvoll prüfen?",
+      "answers": {
+        "A": "Durch vorab definierte Mess- oder Prüfkriterien",
+        "B": "Durch Nachweise, Tests oder Stichproben",
+        "C": "Durch Review des Zielzustands gegen die ursprüngliche Anforderung",
+        "D": "Allein durch die Aussage, dass die Maßnahme teuer war"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 8 und 9"
+    },
+    {
+      "id": "TF09-020",
+      "topic_nr": 9,
+      "topic": "Umsetzungsplanung",
+      "level": "Experte",
+      "question": "Eine Anforderung ist „teilweise“ erfüllt, weil ein Prozess existiert, aber nicht angewendet wird. Welche Maßnahmen sind naheliegend?",
+      "answers": {
+        "A": "Ursache der Nichtanwendung klären",
+        "B": "Prozess anpassen, schulen oder verbindlich einführen",
+        "C": "Wirksamkeit nach einem angemessenen Zeitraum überprüfen",
+        "D": "Die Anforderung als erfüllt markieren, weil ein Dokument vorhanden ist"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 6 und 8"
+    },
+    {
+      "id": "TF10-001",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Welche der folgenden Begriffe sind Bestandteile des PDCA-Zyklus?",
+      "answers": {
+        "A": "Plan",
+        "B": "Do",
+        "C": "Accept",
+        "D": "Archive"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.1"
+    },
+    {
+      "id": "TF10-002",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Welche Aussage beschreibt „Check“ im Sicherheitsprozess?",
+      "answers": {
+        "A": "Erfolgskontrolle und Überwachung der Zielerreichung",
+        "B": "Regelmäßige Prüfung der Angemessenheit und Wirksamkeit",
+        "C": "Ausschließliche Erstaufnahme des Informationsverbunds",
+        "D": "Freigabe aller Rest-Risiken ohne Prüfung"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.1 und 9"
+    },
+    {
+      "id": "TF10-003",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Welche Aktivitäten gehören typischerweise zur Aufrechterhaltung eines ISMS?",
+      "answers": {
+        "A": "Regelmäßige Reviews und interne Audits",
+        "B": "Aktualisierung von Dokumentation und Sicherheitskonzept",
+        "C": "Einfrieren aller Unterlagen nach der ersten Freigabe",
+        "D": "Verzicht auf Kennzahlen nach der Umsetzung"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF10-004",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Welche Ereignisse können Anpassungen am Sicherheitskonzept auslösen?",
+      "answers": {
+        "A": "Neue Geschäftsprozesse oder geänderte IT-Systeme",
+        "B": "Sicherheitsvorfälle",
+        "C": "Neue oder geänderte externe Anforderungen",
+        "D": "Die Tatsache, dass ein Dokument bereits archiviert wurde"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF10-005",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Welche Rolle hat ein Management Review?",
+      "answers": {
+        "A": "Bewertung der Leistung und Wirksamkeit des ISMS",
+        "B": "Entscheidungen zu Verbesserungen, Prioritäten oder Ressourcen",
+        "C": "Vollständiger Ersatz aller operativen Reviews",
+        "D": "Automatische Zertifikatserteilung"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF10-006",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Welche Kennzahlen können im ISMS nützlich sein?",
+      "answers": {
+        "A": "Anzahl offener Maßnahmen und Bearbeitungsdauer",
+        "B": "Anzahl erstellter Richtliniendokumente ohne Prüfung von Nutzung oder Wirksamkeit",
+        "C": "Anzahl archivierter Dateiversionen ohne Bezug zu Maßnahmenstatus oder Risiken",
+        "D": "Anzahl terminierter Besprechungen ohne Ergebnisbezug"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 9.3"
+    },
+    {
+      "id": "TF10-007",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Wozu dienen Reifegradmodelle?",
+      "answers": {
+        "A": "Sie helfen, den Entwicklungsstand von Prozessen strukturiert einzuschätzen.",
+        "B": "Sie können Fortschritte sichtbar machen.",
+        "C": "Sie ersetzen die Prüfung konkreter Anforderungen vollständig.",
+        "D": "Sie machen Maßnahmenpläne entbehrlich."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 9.4"
+    },
+    {
+      "id": "TF10-008",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Wie bleibt ein IT-Grundschutz-Modell aktuell?",
+      "answers": {
+        "A": "Es wird bei relevanten Änderungen überprüft.",
+        "B": "Es wird regelmäßig im Rahmen des Sicherheitsprozesses betrachtet.",
+        "C": "Es darf nach der ersten Erstellung nie verändert werden.",
+        "D": "Es wird nur bei einem Wechsel des Schriftbilds aktualisiert."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF10-009",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Welche Anforderungen gelten an Dokumentation im laufenden Sicherheitsprozess?",
+      "answers": {
+        "A": "Sie sollte nachvollziehbar, aktuell und zugänglich für Berechtigte sein.",
+        "B": "Zugriffsrechte sind sorgfältig zu regeln.",
+        "C": "Elektronische Dokumentation kann zweckmäßig sein.",
+        "D": "Dokumentation ist nur dann erforderlich, wenn Papierakten geführt werden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.1"
+    },
+    {
+      "id": "TF10-010",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Warum sind Schulungen und Sensibilisierung laufend relevant?",
+      "answers": {
+        "A": "Informationssicherheit hängt auch vom Verhalten der Beschäftigten ab.",
+        "B": "Neue Bedrohungen, Prozesse oder Regeln müssen vermittelt werden.",
+        "C": "Sie unterstützen die Umsetzung organisatorischer Maßnahmen.",
+        "D": "Sie ersetzen technische und organisatorische Schutzmaßnahmen vollständig."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 2 und 9"
+    },
+    {
+      "id": "TF10-011",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Wie unterstützt Change Management die Informationssicherheit?",
+      "answers": {
+        "A": "Änderungen werden vor Umsetzung auf Sicherheitsauswirkungen geprüft.",
+        "B": "Betroffene Zielobjekte, Schutzbedarfe und Maßnahmen können aktualisiert werden.",
+        "C": "Unkontrollierte Änderungen werden reduziert.",
+        "D": "Es verhindert jede technische Innovation."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF10-012",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Warum sind Sicherheitsvorfälle für die kontinuierliche Verbesserung wichtig?",
+      "answers": {
+        "A": "Sie zeigen Schwachstellen in Maßnahmen oder Prozessen auf.",
+        "B": "Lessons Learned können zu Korrekturmaßnahmen führen.",
+        "C": "Sie können Risikoanalysen und Schulungen beeinflussen.",
+        "D": "Sie sollten grundsätzlich nicht dokumentiert werden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 9 und Sicherheitsvorfallbehandlung"
+    },
+    {
+      "id": "TF10-013",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Welche Ergebnisse können aus Lessons Learned entstehen?",
+      "answers": {
+        "A": "Anpassung von Prozessen oder Richtlinien",
+        "B": "Zusätzliche technische oder organisatorische Maßnahmen",
+        "C": "Aktualisierung von Risikoanalyse oder IT-Grundschutz-Modell",
+        "D": "Verzicht auf jede weitere Prüfung, weil der Vorfall abgeschlossen ist"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Aufrechterhaltung und Sicherheitsvorfallbehandlung"
+    },
+    {
+      "id": "TF10-014",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Welche Aussage beschreibt Informationssicherheit als kontinuierlichen Prozess?",
+      "answers": {
+        "A": "Sicherheitsmaßnahmen müssen an neue Gegebenheiten angepasst werden.",
+        "B": "Ein einmal erreichter Zustand bleibt ohne Prüfung dauerhaft gleich sicher.",
+        "C": "Neue Schwachstellen dürfen erst nach einer Zertifizierung betrachtet werden.",
+        "D": "Verbesserungen werden nur nach externem Druck, nicht aus internen Erkenntnissen abgeleitet."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.1"
+    },
+    {
+      "id": "TF10-015",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Basis",
+      "question": "Welche Rolle spielen Überwachungsaudits oder regelmäßige Prüfungen nach einer Zertifizierung?",
+      "answers": {
+        "A": "Sie unterstützen die fortlaufende Nachweisfähigkeit.",
+        "B": "Sie prüfen, ob das ISMS weiter angemessen betrieben wird.",
+        "C": "Sie machen interne Reviews grundsätzlich überflüssig.",
+        "D": "Sie können Verbesserungsbedarf sichtbar machen."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 9.5"
+    },
+    {
+      "id": "TF10-016",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Experte",
+      "question": "Welche Kennzahl wäre für die Steuerung offener Sicherheitsmaßnahmen am aussagekräftigsten?",
+      "answers": {
+        "A": "Anteil überfälliger Maßnahmen nach Risikoklasse",
+        "B": "Anzahl der Folien in einer Präsentation",
+        "C": "Durchschnittliche Bearbeitungszeit je Priorität",
+        "D": "Anzahl geschlossener Maßnahmen ohne Prüfung der Wirksamkeit als alleinige Kennzahl"
+      },
+      "solution": [
+        "A",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 9.3"
+    },
+    {
+      "id": "TF10-017",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Experte",
+      "question": "In einem Management Review zeigt sich, dass viele Maßnahmen formal abgeschlossen sind, aber Nachweise fehlen. Welche Schlussfolgerungen sind sinnvoll?",
+      "answers": {
+        "A": "Nachweisführung und Abnahmeprozess sollten verbessert werden.",
+        "B": "Der Status „abgeschlossen“ ist ohne prüfbare Evidenz kritisch zu hinterfragen.",
+        "C": "Es besteht kein Handlungsbedarf, wenn Maßnahmen in einer Liste grün markiert sind.",
+        "D": "Kriterien für Wirksamkeitskontrollen können präzisiert werden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 8 und 9"
+    },
+    {
+      "id": "TF10-018",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Experte",
+      "question": "Welche Inputs sind für ein Management Review besonders geeignet?",
+      "answers": {
+        "A": "Ergebnisse von Audits, Checks und Kennzahlen",
+        "B": "Status von Risiken und Maßnahmen",
+        "C": "Rückmeldungen zu Vorfällen, Änderungen und Ressourcenbedarf",
+        "D": "Ungeprüfte Einzelmeinungen ohne Bezug zum ISMS"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF10-019",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Experte",
+      "question": "Wie sollte ein Reifegradmodell im Sicherheitsprozess verwendet werden?",
+      "answers": {
+        "A": "Als Hilfsmittel zur strukturierten Einschätzung und Priorisierung von Verbesserungen",
+        "B": "Als Ersatz für alle Anforderungen und Nachweise",
+        "C": "Mit klar definierten Stufen und Kriterien",
+        "D": "Zur Beobachtung von Entwicklung über mehrere Reviews hinweg"
+      },
+      "solution": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source_hint": "Online-Kurs Lektion 9.4"
+    },
+    {
+      "id": "TF10-020",
+      "topic_nr": 10,
+      "topic": "Aufrechterhaltung und kontinuierliche Verbesserung",
+      "level": "Experte",
+      "question": "Ein neues ERP-Modul wird eingeführt, das mehrere Kernprozesse unterstützt. Welche ISMS-Aktivitäten sind naheliegend?",
+      "answers": {
+        "A": "Strukturanalyse, Schutzbedarf und Modellierung prüfen und aktualisieren",
+        "B": "Risiken und Maßnahmen für neue Schnittstellen bewerten",
+        "C": "Betroffene Schulungen, Berechtigungen und Nachweise planen",
+        "D": "Bis zum nächsten Zertifikat warten, bevor die Änderung betrachtet wird"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 9"
+    },
+    {
+      "id": "TF11-001",
+      "topic_nr": 11,
+      "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+      "level": "Basis",
+      "question": "Was bedeutet eine ISO-27001-Zertifizierung auf Basis von IT-Grundschutz im Grundsatz?",
+      "answers": {
+        "A": "Ein ISMS und zugehörige Maßnahmen werden anhand festgelegter Anforderungen geprüft.",
+        "B": "IT-Grundschutz-Artefakte können zur Nachweisführung genutzt werden.",
+        "C": "Sie belegt absolute Sicherheit ohne Restrisiken.",
+        "D": "Sie ersetzt die Festlegung des Geltungsbereichs."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 9.5"
+    },
+    {
+      "id": "TF11-002",
+      "topic_nr": 11,
+      "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+      "level": "Basis",
+      "question": "Warum ist der Geltungsbereich für eine Zertifizierung wichtig?",
+      "answers": {
+        "A": "Er bestimmt, welche Organisationsteile, Prozesse, Standorte oder Services geprüft werden.",
+        "B": "Er darf während der Prüfung beliebig unausgesprochen erweitert werden.",
+        "C": "Er ist immer identisch mit allen Tätigkeiten des Unternehmens weltweit.",
+        "D": "Er macht Schnittstellen zu Dritten grundsätzlich unsichtbar."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Zertifizierung und Audit"
+    },
+    {
+      "id": "TF11-003",
+      "topic_nr": 11,
+      "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+      "level": "Basis",
+      "question": "Welche Voraussetzungen unterstützen die Zertifizierungsreife?",
+      "answers": {
+        "A": "Ein eingeführtes und betriebenes ISMS",
+        "B": "Nachvollziehbare Ergebnisse aus Modellierung, Check, Risikoanalyse und Maßnahmenumsetzung",
+        "C": "Ausschließlich ein Organigramm der IT-Abteilung",
+        "D": "Ein Zertifikat, das vor dem Audit schon ohne Prüfung erstellt wurde"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 9.5"
+    },
+    {
+      "id": "TF11-004",
+      "topic_nr": 11,
+      "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+      "level": "Basis",
+      "question": "Was wird in einer frühen Auditphase typischerweise besonders betrachtet?",
+      "answers": {
+        "A": "Dokumentations- und Auditfähigkeit",
+        "B": "Geltungsbereich und grundlegende ISMS-Struktur",
+        "C": "Ob bereits ausreichend Nachweise für die weitere Prüfung vorliegen",
+        "D": "Eindrücke aus Einzelgesprächen ohne Bezug zu ISMS-Anforderungen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Zertifizierung und Audit"
+    },
+    {
+      "id": "TF11-005",
+      "topic_nr": 11,
+      "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+      "level": "Basis",
+      "question": "Welche Nachweise sind für eine Zertifizierung typischerweise relevant?",
+      "answers": {
+        "A": "Sicherheitsleitlinie, Prozesse und Rollenbeschreibungen",
+        "B": "IT-Grundschutz-Modell, Check-Ergebnisse und Maßnahmenstatus",
+        "C": "Nicht versionierte Entwürfe ohne Freigabe oder Geltungsbereich",
+        "D": "Entwürfe ohne Versionsstand und ohne Freigabe"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Online-Kurs Lektion 9.5"
+    },
+    {
+      "id": "TF11-006",
+      "topic_nr": 11,
+      "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+      "level": "Basis",
+      "question": "Welche Arten von Feststellungen können in Audits auftreten?",
+      "answers": {
+        "A": "Abweichungen oder Nichtkonformitäten",
+        "B": "Beobachtungen oder Verbesserungshinweise",
+        "C": "Nachweisanforderungen",
+        "D": "Automatische Risikoakzeptanz ohne Verantwortliche"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Auditvorbereitung und Zertifizierung"
+    },
+    {
+      "id": "TF11-007",
+      "topic_nr": 11,
+      "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+      "level": "Basis",
+      "question": "Wie sollte eine Organisation mit Auditabweichungen umgehen?",
+      "answers": {
+        "A": "Ursache analysieren",
+        "B": "Korrekturen und Korrekturmaßnahmen planen",
+        "C": "Abweichungen aus der Dokumentation entfernen",
+        "D": "Feststellungen ohne Zuständigkeit ablegen"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Auditvorbereitung und Zertifizierung"
+    },
+    {
+      "id": "TF11-008",
+      "topic_nr": 11,
+      "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+      "level": "Basis",
+      "question": "Was ist nach einer erfolgreichen Zertifizierung weiterhin wichtig?",
+      "answers": {
+        "A": "Aufrechterhaltung und Verbesserung des ISMS",
+        "B": "Pflege von Dokumentation und Nachweisen",
+        "C": "Berücksichtigung von Änderungen im Geltungsbereich",
+        "D": "Einstellung aller Sicherheitsaktivitäten bis zur nächsten Krise"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 9.5"
+    },
+    {
+      "id": "TF11-009",
+      "topic_nr": 11,
+      "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+      "level": "Basis",
+      "question": "Welche Aussage zur Zertifizierung ist korrekt?",
+      "answers": {
+        "A": "Eine Zertifizierung ist ein Nachweis für Konformität im definierten Geltungsbereich.",
+        "B": "Sie garantiert, dass kein Sicherheitsvorfall mehr auftreten kann.",
+        "C": "Sie ersetzt alle internen Reviews dauerhaft.",
+        "D": "Sie entbindet die Leitung vollständig von ihrer Verantwortung."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Online-Kurs Lektion 2.3 und 9.5"
+    },
+    {
+      "id": "TF11-010",
+      "topic_nr": 11,
+      "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+      "level": "Experte",
+      "question": "Ein Unternehmen möchte nur den gut dokumentierten Rechenzentrumsbetrieb zertifizieren lassen, obwohl der kritische Fachprozess stark von nicht betrachteten Fachabteilungen abhängt. Welche Risiken bestehen?",
+      "answers": {
+        "A": "Der Scope könnte fachlich unzureichend oder missverständlich sein.",
+        "B": "Schnittstellen und Abhängigkeiten könnten nicht ausreichend geprüft werden.",
+        "C": "Der Zertifizierungsnachweis könnte gegenüber Dritten falsche Erwartungen erzeugen.",
+        "D": "Ein enger Scope ist immer zulässig, ohne dass Schnittstellen beschrieben werden müssen."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Zertifizierung und Scope"
+    },
+    {
+      "id": "TF11-011",
+      "topic_nr": 11,
+      "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+      "level": "Experte",
+      "question": "In einem Audit wird eine Abweichung festgestellt, weil Risikoentscheidungen nicht freigegeben sind. Welche Reaktion ist angemessen?",
+      "answers": {
+        "A": "Verantwortliche Entscheidungswege klären und dokumentieren",
+        "B": "Fehlende Freigaben nachholen und Ursachen analysieren",
+        "C": "Wirksamkeit der Korrekturmaßnahmen prüfen",
+        "D": "Die Risikoentscheidungen löschen, damit keine Lücke sichtbar ist"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Auditfeststellungen"
+    },
+    {
+      "id": "TF11-012",
+      "topic_nr": 11,
+      "topic": "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001",
+      "level": "Experte",
+      "question": "Wie können IT-Grundschutz-Artefakte eine ISO-bezogene Zertifizierung unterstützen?",
+      "answers": {
+        "A": "Sie liefern eine nachvollziehbare Struktur aus Zielobjekten, Bausteinen und Anforderungen.",
+        "B": "Check- und Maßnahmennachweise können Prüfpfade unterstützen.",
+        "C": "Risikounterlagen und Managemententscheidungen machen Rest-Risiken nachvollziehbar.",
+        "D": "Sie ersetzen sämtliche Anforderungen an ein ISMS unabhängig vom Auditkriterium."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Online-Kurs Lektion 9.5"
+    },
+    {
+      "id": "TF12-001",
+      "topic_nr": 12,
+      "topic": "IT-Grundschutz-Profile",
+      "level": "Basis",
+      "question": "Welchen Zweck haben IT-Grundschutz-Profile?",
+      "answers": {
+        "A": "Sie bieten Orientierung für bestimmte Branchen, Szenarien oder Zielgruppen.",
+        "B": "Sie können eine Vorauswahl relevanter Bausteine und Anforderungen unterstützen.",
+        "C": "Sie ersetzen jede institutionsspezifische Betrachtung vollständig.",
+        "D": "Sie sind nur ein Ersatz für Awareness-Schulungen."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "IT-Grundschutz-Profile"
+    },
+    {
+      "id": "TF12-002",
+      "topic_nr": 12,
+      "topic": "IT-Grundschutz-Profile",
+      "level": "Basis",
+      "question": "Welche Inhalte kann ein IT-Grundschutz-Profil typischerweise enthalten?",
+      "answers": {
+        "A": "Beschreibung des betrachteten Anwendungsfalls oder Scopes",
+        "B": "Referenzarchitektur oder typische Zielobjekte",
+        "C": "Eine Garantie für Zertifizierung ohne weitere Prüfung",
+        "D": "Zugangsdetails zu konkreten Systemen im Klartext"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "IT-Grundschutz-Profile"
+    },
+    {
+      "id": "TF12-003",
+      "topic_nr": 12,
+      "topic": "IT-Grundschutz-Profile",
+      "level": "Basis",
+      "question": "Wie sollte eine Institution ein vorhandenes IT-Grundschutz-Profil nutzen?",
+      "answers": {
+        "A": "Als Startpunkt für die eigene Modellierung und Planung",
+        "B": "Mit Prüfung, ob Profil und eigener Informationsverbund zusammenpassen",
+        "C": "Durch blinde Übernahme ohne Anpassung",
+        "D": "Mit Dokumentation von Abweichungen und Ergänzungen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "IT-Grundschutz-Profile"
+    },
+    {
+      "id": "TF12-004",
+      "topic_nr": 12,
+      "topic": "IT-Grundschutz-Profile",
+      "level": "Basis",
+      "question": "Was bleibt trotz Nutzung eines Profils erforderlich?",
+      "answers": {
+        "A": "Festlegung des eigenen Geltungsbereichs",
+        "B": "Verzicht auf jede Dokumentation, weil das Profil bereits existiert",
+        "C": "Blindes Übernehmen auch bei abweichenden Prozessen",
+        "D": "Ausschluss aller zusätzlichen Anforderungen"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "IT-Grundschutz-Profile"
+    },
+    {
+      "id": "TF12-005",
+      "topic_nr": 12,
+      "topic": "IT-Grundschutz-Profile",
+      "level": "Basis",
+      "question": "Welche Vorteile können IT-Grundschutz-Profile bieten?",
+      "answers": {
+        "A": "Sie fördern einheitliche Orientierung für ähnliche Institutionen.",
+        "B": "Sie reduzieren den Aufwand für die erste Auswahl relevanter Bausteine.",
+        "C": "Sie können den Erfahrungsaustausch in einer Branche unterstützen.",
+        "D": "Sie machen die Leitungsebene für Informationssicherheit unzuständig."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "IT-Grundschutz-Profile"
+    },
+    {
+      "id": "TF12-006",
+      "topic_nr": 12,
+      "topic": "IT-Grundschutz-Profile",
+      "level": "Basis",
+      "question": "Wer kann an der Erstellung oder Pflege von Profilen beteiligt sein?",
+      "answers": {
+        "A": "Brancheninitiativen oder Verbände",
+        "B": "Fachkundige Institutionen mit vergleichbaren Anforderungen",
+        "C": "Behörden oder Organisationen mit Referenzszenarien",
+        "D": "Ausschließlich einzelne Administratoren ohne Abstimmung und Dokumentation"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "IT-Grundschutz-Profile"
+    },
+    {
+      "id": "TF12-007",
+      "topic_nr": 12,
+      "topic": "IT-Grundschutz-Profile",
+      "level": "Experte",
+      "question": "Eine Kommune nutzt ein IT-Grundschutz-Profil, stellt aber fest, dass ein eigener kritischer Online-Dienst dort nicht berücksichtigt ist. Was ist zu tun?",
+      "answers": {
+        "A": "Das Profil wird um die institutionsspezifischen Zielobjekte und Anforderungen ergänzt.",
+        "B": "Abweichungen und zusätzliche Bausteine werden dokumentiert.",
+        "C": "Der Online-Dienst bleibt unberücksichtigt, weil er nicht im Profil steht.",
+        "D": "Schutzbedarf und Risiken des Online-Dienstes werden eigenständig betrachtet."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "IT-Grundschutz-Profile"
+    },
+    {
+      "id": "TF12-008",
+      "topic_nr": 12,
+      "topic": "IT-Grundschutz-Profile",
+      "level": "Experte",
+      "question": "Welche Kriterien sind bei der Bewertung eines Profils besonders wichtig?",
+      "answers": {
+        "A": "Aktualität des Profils",
+        "B": "Passung zum eigenen Geltungsbereich und zu Zielobjekten",
+        "C": "Nachvollziehbarkeit der Annahmen und Abgrenzungen",
+        "D": "Ob das Profil unabhängig vom eigenen Kontext möglichst umfangreich ist"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "IT-Grundschutz-Profile"
+    },
+    {
+      "id": "TF13-001",
+      "topic_nr": 13,
+      "topic": "Vorbereitung auf ein Audit",
+      "level": "Basis",
+      "question": "Was gehört zu einer strukturierten Auditvorbereitung?",
+      "answers": {
+        "A": "Auditplan mit Terminen, Themen und Ansprechpartnern",
+        "B": "Bereitstellung relevanter Nachweise",
+        "C": "Spontane Sammlung von Dokumenten erst während des Audits",
+        "D": "Verzicht auf die Klärung von Scope und Prüfkriterien"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Auditvorbereitung"
+    },
+    {
+      "id": "TF13-002",
+      "topic_nr": 13,
+      "topic": "Vorbereitung auf ein Audit",
+      "level": "Basis",
+      "question": "Welche Unterlagen werden in einem Audit häufig benötigt?",
+      "answers": {
+        "A": "Sicherheitsleitlinie und ISMS-Prozesse",
+        "B": "IT-Grundschutz-Modell und Check-Dokumentation",
+        "C": "Nicht freigegebene Entwürfe ohne Versionsstand",
+        "D": "Widersprüchliche Entwürfe ohne Versionsstand"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Auditvorbereitung"
+    },
+    {
+      "id": "TF13-003",
+      "topic_nr": 13,
+      "topic": "Vorbereitung auf ein Audit",
+      "level": "Basis",
+      "question": "Warum ist ein eindeutiger Scope vor dem Audit wichtig?",
+      "answers": {
+        "A": "Er verhindert Missverständnisse über zu prüfende Bereiche.",
+        "B": "Er macht alle nicht betrachteten Schnittstellen irrelevant.",
+        "C": "Er erlaubt die ungeklärte Erweiterung des Audits während der Befragung.",
+        "D": "Er ersetzt alle Nachweise."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Auditvorbereitung"
+    },
+    {
+      "id": "TF13-004",
+      "topic_nr": 13,
+      "topic": "Vorbereitung auf ein Audit",
+      "level": "Basis",
+      "question": "Welche Rollen sollten für ein Audit vorbereitet sein?",
+      "answers": {
+        "A": "Informationssicherheitsbeauftragte oder ISMS-Verantwortliche",
+        "B": "Fach- und Prozessverantwortliche",
+        "C": "IT- und Betriebsverantwortliche für relevante Zielobjekte",
+        "D": "Ausschließlich Personen ohne Bezug zum Informationsverbund"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Auditvorbereitung"
+    },
+    {
+      "id": "TF13-005",
+      "topic_nr": 13,
+      "topic": "Vorbereitung auf ein Audit",
+      "level": "Basis",
+      "question": "Was verbessert die Qualität von Auditnachweisen?",
+      "answers": {
+        "A": "Aktuelle und freigegebene Versionen",
+        "B": "Klare Zuordnung zu Anforderungen oder Kontrollen",
+        "C": "Mehrere widersprüchliche Dokumentversionen ohne Kennzeichnung",
+        "D": "Nachweise ohne Datum und Verantwortlichkeit"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Auditvorbereitung"
+    },
+    {
+      "id": "TF13-006",
+      "topic_nr": 13,
+      "topic": "Vorbereitung auf ein Audit",
+      "level": "Basis",
+      "question": "Warum ist eine zentrale Nachweisablage hilfreich?",
+      "answers": {
+        "A": "Sie erleichtert das Auffinden relevanter Dokumente.",
+        "B": "Sie unterstützt konsistente Versionen.",
+        "C": "Sie verringert das Risiko widersprüchlicher Aussagen.",
+        "D": "Sie ersetzt die inhaltliche Prüfung der Nachweise."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Auditvorbereitung"
+    },
+    {
+      "id": "TF13-007",
+      "topic_nr": 13,
+      "topic": "Vorbereitung auf ein Audit",
+      "level": "Basis",
+      "question": "Wie sollten Mitarbeitende auf Auditinterviews vorbereitet werden?",
+      "answers": {
+        "A": "Sie sollten ihre Rollen, Prozesse und Nachweise kennen.",
+        "B": "Sie sollten wahrheitsgemäß antworten und Unsicherheiten klären.",
+        "C": "Sie sollten abgestimmte Scheinantworten auswendig lernen.",
+        "D": "Sie sollten wissen, wo relevante Dokumente zu finden sind."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Auditvorbereitung"
+    },
+    {
+      "id": "TF13-008",
+      "topic_nr": 13,
+      "topic": "Vorbereitung auf ein Audit",
+      "level": "Basis",
+      "question": "Wozu dient ein Readiness Check oder internes Voraudit?",
+      "answers": {
+        "A": "Lücken vor dem externen Audit erkennen",
+        "B": "Das Zertifikat ohne externe Prüfung ausstellen",
+        "C": "Feststellungen grundsätzlich verbergen",
+        "D": "Nachweise erst nach dem Audit erstellen"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Auditvorbereitung"
+    },
+    {
+      "id": "TF13-009",
+      "topic_nr": 13,
+      "topic": "Vorbereitung auf ein Audit",
+      "level": "Basis",
+      "question": "Welche Punkte sollten in einer Auditagenda enthalten sein?",
+      "answers": {
+        "A": "Zeitfenster und Themen",
+        "B": "Teilnehmende und Ansprechpartner",
+        "C": "Benötigte Räume oder technische Zugänge",
+        "D": "Ungeplante Überraschungsthemen ohne Bezug zum Scope als Standard"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Auditvorbereitung"
+    },
+    {
+      "id": "TF13-010",
+      "topic_nr": 13,
+      "topic": "Vorbereitung auf ein Audit",
+      "level": "Experte",
+      "question": "Ein Remote-Audit ist geplant. Welche zusätzlichen Vorbereitungen sind sinnvoll?",
+      "answers": {
+        "A": "Sichere und stabile Kommunikationskanäle festlegen",
+        "B": "Zugriff auf Nachweise mit Berechtigungen und Vertraulichkeit regeln",
+        "C": "Techniktest mit relevanten Ansprechpartnern durchführen",
+        "D": "Alle sensiblen Nachweise unverschlüsselt per E-Mail verteilen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Auditvorbereitung Remote"
+    },
+    {
+      "id": "TF13-011",
+      "topic_nr": 13,
+      "topic": "Vorbereitung auf ein Audit",
+      "level": "Experte",
+      "question": "Im Audit wird eine Nachweislücke festgestellt, die intern bereits bekannt war. Wie sollte professionell reagiert werden?",
+      "answers": {
+        "A": "Sachverhalt transparent erklären und vorhandene Maßnahmenstände zeigen",
+        "B": "Ursache und geplante Korrekturmaßnahmen dokumentieren",
+        "C": "Die Lücke verbergen oder widersprüchliche Ersatzdokumente erstellen",
+        "D": "Zuständige Personen und Termine für die Behebung festlegen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "Auditvorbereitung Feststellungen"
+    },
+    {
+      "id": "TF13-012",
+      "topic_nr": 13,
+      "topic": "Vorbereitung auf ein Audit",
+      "level": "Experte",
+      "question": "Warum ist „viel Dokumentation“ allein keine gute Auditvorbereitung?",
+      "answers": {
+        "A": "Dokumente müssen zum tatsächlichen Prozess passen.",
+        "B": "Nachweise müssen aktuell, freigegeben und angewendet sein.",
+        "C": "Überdokumentation kann Widersprüche und Unklarheiten erzeugen.",
+        "D": "Umfangreiche Dokumente ersetzen jede Umsetzung."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Auditvorbereitung"
+    },
+    {
+      "id": "TF14-001",
+      "topic_nr": 14,
+      "topic": "Sicherheitsvorfallbehandlung",
+      "level": "Basis",
+      "question": "Was ist ein Sicherheitsvorfall?",
+      "answers": {
+        "A": "Ein Ereignis, das die Vertraulichkeit, Integrität oder Verfügbarkeit beeinträchtigen kann oder beeinträchtigt hat.",
+        "B": "Ein Ereignis, das bewertet, dokumentiert und gegebenenfalls behandelt werden muss.",
+        "C": "Nur ein Ereignis, bei dem bereits ein externer Angreifer gerichtlich verurteilt wurde.",
+        "D": "Ein regulärer Patchtermin ohne Sicherheitsbezug"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Sicherheitsvorfallbehandlung"
+    },
+    {
+      "id": "TF14-002",
+      "topic_nr": 14,
+      "topic": "Sicherheitsvorfallbehandlung",
+      "level": "Basis",
+      "question": "Welche Elemente gehören zu einem geregelten Meldeprozess für Sicherheitsvorfälle?",
+      "answers": {
+        "A": "Klare Meldewege und Kontaktstellen",
+        "B": "Eskalationskriterien",
+        "C": "Dokumentation der Meldung",
+        "D": "Die Vorgabe, Vorfälle zunächst immer informell zu verschweigen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Sicherheitsvorfallbehandlung"
+    },
+    {
+      "id": "TF14-003",
+      "topic_nr": 14,
+      "topic": "Sicherheitsvorfallbehandlung",
+      "level": "Basis",
+      "question": "Warum ist eine Klassifikation von Sicherheitsvorfällen sinnvoll?",
+      "answers": {
+        "A": "Sie unterstützt Priorisierung und Eskalation.",
+        "B": "Sie hilft, geeignete Reaktionsmaßnahmen auszuwählen.",
+        "C": "Sie ersetzt die eigentliche Bearbeitung des Vorfalls.",
+        "D": "Sie verhindert jede Kommunikation mit Fachverantwortlichen."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Sicherheitsvorfallbehandlung"
+    },
+    {
+      "id": "TF14-004",
+      "topic_nr": 14,
+      "topic": "Sicherheitsvorfallbehandlung",
+      "level": "Basis",
+      "question": "Welche Ziele stehen in der ersten Reaktion auf einen Sicherheitsvorfall im Vordergrund?",
+      "answers": {
+        "A": "Schaden begrenzen und weitere Ausbreitung verhindern",
+        "B": "Betroffene Dienste unkontrolliert verändern, damit nichts mehr nachvollziehbar ist",
+        "C": "Alle Spuren löschen, um den Normalbetrieb zu beschleunigen",
+        "D": "Auf eine Meldung verzichten, solange die Ursache unklar ist"
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "Sicherheitsvorfallbehandlung"
+    },
+    {
+      "id": "TF14-005",
+      "topic_nr": 14,
+      "topic": "Sicherheitsvorfallbehandlung",
+      "level": "Basis",
+      "question": "Welche Rollen sollten in der Sicherheitsvorfallbehandlung klar geregelt sein?",
+      "answers": {
+        "A": "Meldende Personen und Annahmestelle",
+        "B": "Incident-Verantwortliche oder Krisenstab je nach Schwere",
+        "C": "Fach-, IT- und Kommunikationsverantwortliche",
+        "D": "Beliebige Personen ohne Auftrag, die spontan Entscheidungen treffen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Sicherheitsvorfallbehandlung"
+    },
+    {
+      "id": "TF14-006",
+      "topic_nr": 14,
+      "topic": "Sicherheitsvorfallbehandlung",
+      "level": "Basis",
+      "question": "Welche Kommunikationsaspekte sind bei Sicherheitsvorfällen wichtig?",
+      "answers": {
+        "A": "Interne Eskalation an zuständige Rollen",
+        "B": "Abgestimmte externe Kommunikation, falls erforderlich",
+        "C": "Unkoordinierte Einzelmeldungen an beliebige Empfänger",
+        "D": "Verzicht auf rechtliche oder vertragliche Meldepflichten"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Sicherheitsvorfallbehandlung"
+    },
+    {
+      "id": "TF14-007",
+      "topic_nr": 14,
+      "topic": "Sicherheitsvorfallbehandlung",
+      "level": "Basis",
+      "question": "Was ist bei der Beweissicherung zu beachten?",
+      "answers": {
+        "A": "Integrität und Nachvollziehbarkeit der gesicherten Informationen",
+        "B": "Dokumentation von Zeitpunkt, Quelle und Bearbeitungsschritten",
+        "C": "Beliebiges Überschreiben von Logdaten zur schnellen Wiederherstellung",
+        "D": "Freie Weitergabe gesicherter Artefakte ohne Zugriffsbeschränkung"
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "Sicherheitsvorfallbehandlung"
+    },
+    {
+      "id": "TF14-008",
+      "topic_nr": 14,
+      "topic": "Sicherheitsvorfallbehandlung",
+      "level": "Basis",
+      "question": "Welche Schritte gehören typischerweise zur Wiederherstellung nach einem Vorfall?",
+      "answers": {
+        "A": "Beseitigung der Ursache oder Schwachstelle",
+        "B": "Wiederanlauf betroffener Systeme oder Prozesse nach Freigabe",
+        "C": "Prüfung, ob die Wiederherstellung sicher und wirksam ist",
+        "D": "Ungeprüfte Rückkehr zum Normalbetrieb ohne Ursachenbetrachtung"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Sicherheitsvorfallbehandlung und BCM"
+    },
+    {
+      "id": "TF14-009",
+      "topic_nr": 14,
+      "topic": "Sicherheitsvorfallbehandlung",
+      "level": "Basis",
+      "question": "Welchen Zweck haben Lessons Learned nach einem Sicherheitsvorfall?",
+      "answers": {
+        "A": "Ursachen und Schwächen im Prozess erkennen",
+        "B": "Maßnahmen, Schulungen oder Playbooks verbessern",
+        "C": "Risikoanalyse und Sicherheitskonzept bei Bedarf aktualisieren",
+        "D": "Verantwortlichkeiten verschleiern, damit keine Änderungen nötig sind"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Sicherheitsvorfallbehandlung"
+    },
+    {
+      "id": "TF14-010",
+      "topic_nr": 14,
+      "topic": "Sicherheitsvorfallbehandlung",
+      "level": "Experte",
+      "question": "Ein Ransomware-Verdacht betrifft mehrere Fileserver. Welche ersten Maßnahmen sind fachlich plausibel?",
+      "answers": {
+        "A": "Incident-Prozess aktivieren und zuständige Rollen informieren",
+        "B": "Ausbreitung begrenzen, zum Beispiel durch kontrollierte Isolation betroffener Systeme",
+        "C": "Logdaten und relevante Artefakte sichern, bevor sie verloren gehen",
+        "D": "Sofort alle Systeme ohne Analyse neu installieren und alle Spuren löschen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Sicherheitsvorfallbehandlung"
+    },
+    {
+      "id": "TF14-011",
+      "topic_nr": 14,
+      "topic": "Sicherheitsvorfallbehandlung",
+      "level": "Experte",
+      "question": "Ein Sicherheitsvorfall könnte personenbezogene Daten betreffen. Welche Schnittstellen sind besonders zu beachten?",
+      "answers": {
+        "A": "Datenschutz und mögliche Meldepflichten",
+        "B": "Rechtsabteilung oder Compliance, falls vorhanden",
+        "C": "Kommunikation mit Betroffenen oder Behörden nach abgestimmtem Verfahren",
+        "D": "Öffentlichkeitsarbeit ohne Einbindung von Datenschutz, Recht oder Fachrollen"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Sicherheitsvorfallbehandlung"
+    },
+    {
+      "id": "TF14-012",
+      "topic_nr": 14,
+      "topic": "Sicherheitsvorfallbehandlung",
+      "level": "Experte",
+      "question": "Welche Kennzahlen können die Reife der Sicherheitsvorfallbehandlung unterstützen?",
+      "answers": {
+        "A": "Zeit bis zur Erkennung und Eindämmung",
+        "B": "Anteil geübter oder aktualisierter Playbooks",
+        "C": "Anzahl offener Lessons-Learned-Maßnahmen",
+        "D": "Anzahl der Vorfälle, die nicht dokumentiert wurden, als Erfolgskennzahl"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "Sicherheitsvorfallbehandlung und KVP"
+    },
+    {
+      "id": "TF15-001",
+      "topic_nr": 15,
+      "topic": "BCM",
+      "level": "Basis",
+      "question": "Welches Ziel verfolgt Business Continuity Management?",
+      "answers": {
+        "A": "Kritische Geschäftsprozesse bei Störungen fortführen oder geordnet wiederherstellen.",
+        "B": "Auswirkungen schwerer Unterbrechungen begrenzen.",
+        "C": "Alle Sicherheitsvorfälle ausschließlich technisch lösen.",
+        "D": "Notfallvorsorge erst nach einem realen Ausfall beginnen."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "BCM"
+    },
+    {
+      "id": "TF15-002",
+      "topic_nr": 15,
+      "topic": "BCM",
+      "level": "Basis",
+      "question": "Wozu dient eine Business Impact Analyse?",
+      "answers": {
+        "A": "Sie ermittelt Auswirkungen von Prozessunterbrechungen.",
+        "B": "Sie ersetzt die Umsetzung aller Notfallpläne.",
+        "C": "Sie wird unabhängig von Geschäftsprozessen durchgeführt.",
+        "D": "Sie dient der Erstellung einer allgemeinen Kontaktliste ohne Prozessbezug."
+      },
+      "solution": [
+        "A"
+      ],
+      "source_hint": "BCM"
+    },
+    {
+      "id": "TF15-003",
+      "topic_nr": 15,
+      "topic": "BCM",
+      "level": "Basis",
+      "question": "Welche Bedeutung haben RTO und RPO?",
+      "answers": {
+        "A": "RTO beschreibt die angestrebte Wiederanlaufzeit eines Prozesses oder Dienstes.",
+        "B": "RPO beschreibt den maximal tolerierbaren Datenverlust beziehungsweise Wiederherstellungspunkt.",
+        "C": "RTO und RPO werden unabhängig vom Geschäftsbedarf festgelegt.",
+        "D": "Beide Werte beschreiben ausschließlich Hardwarelebensdauer."
+      },
+      "solution": [
+        "A",
+        "B"
+      ],
+      "source_hint": "BCM"
+    },
+    {
+      "id": "TF15-004",
+      "topic_nr": 15,
+      "topic": "BCM",
+      "level": "Basis",
+      "question": "Welche Inhalte können zu BCM-Strategien gehören?",
+      "answers": {
+        "A": "Redundanzen oder Ausweichverfahren",
+        "B": "Priorisierte Wiederherstellung kritischer Prozesse",
+        "C": "Kommunikations- und Ressourcenregelungen",
+        "D": "Ausschließlich jährliche Zertifikatsprüfungen ohne Notfallplanung"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "BCM"
+    },
+    {
+      "id": "TF15-005",
+      "topic_nr": 15,
+      "topic": "BCM",
+      "level": "Basis",
+      "question": "Warum müssen Notfall- und Wiederanlaufpläne geübt werden?",
+      "answers": {
+        "A": "Um festzustellen, ob Rollen, Abläufe und Kontaktdaten funktionieren.",
+        "B": "Um Schwachstellen vor einem echten Notfall zu erkennen.",
+        "C": "Um Beteiligte mit Abläufen vertraut zu machen.",
+        "D": "Weil ein ungeübter Plan automatisch als wirksam gilt."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "BCM"
+    },
+    {
+      "id": "TF15-006",
+      "topic_nr": 15,
+      "topic": "BCM",
+      "level": "Basis",
+      "question": "Welche Beziehung besteht zwischen ISMS, Sicherheitsvorfallbehandlung und BCM?",
+      "answers": {
+        "A": "Sicherheitsvorfälle können BCM-Prozesse auslösen.",
+        "B": "BCM und ISMS nutzen teilweise gemeinsame Informationen zu kritischen Prozessen und Risiken.",
+        "C": "Wiederherstellungsmaßnahmen sollten mit Sicherheitsanforderungen abgestimmt sein.",
+        "D": "BCM ist fachlich vollständig unabhängig von Informationssicherheit."
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "BCM und ISMS"
+    },
+    {
+      "id": "TF15-007",
+      "topic_nr": 15,
+      "topic": "BCM",
+      "level": "Experte",
+      "question": "Ein Produktionsprozess hat ein RTO von vier Stunden, die zugehörige Ersatzteilplattform hat aktuell eine Wiederherstellungszeit von zwei Tagen. Welche Schlussfolgerung ist naheliegend?",
+      "answers": {
+        "A": "Es besteht eine Lücke zwischen Geschäftsanforderung und technischer Wiederherstellungsfähigkeit.",
+        "B": "Eine Anpassung von Strategie, Ressourcen oder Prozessabhängigkeiten ist zu prüfen.",
+        "C": "Die BIA-Anforderung ist automatisch falsch, weil die IT länger benötigt.",
+        "D": "Die Lücke sollte als Risiko oder Maßnahme nachvollziehbar behandelt werden."
+      },
+      "solution": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_hint": "BCM"
+    },
+    {
+      "id": "TF15-008",
+      "topic_nr": 15,
+      "topic": "BCM",
+      "level": "Experte",
+      "question": "Welche Änderungen sollten eine Aktualisierung von BCM-Unterlagen auslösen?",
+      "answers": {
+        "A": "Neue oder geänderte kritische Geschäftsprozesse",
+        "B": "Wesentliche Änderungen an IT-Systemen, Lieferanten oder Standorten",
+        "C": "Erkenntnisse aus Übungen, Vorfällen oder Audits",
+        "D": "Ein rein kosmetischer Wechsel der Dokumentvorlage ohne inhaltliche Änderung"
+      },
+      "solution": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_hint": "BCM und KVP"
+    }
+  ]
+}
