@@ -8,85 +8,12 @@ const LETTERS = ['A', 'B', 'C', 'D']
 export async function generateWordDocument(exam: GeneratedExam, includeKey: boolean): Promise<void> {
   const children: (Paragraph | Table)[] = []
 
-  // Title
-  children.push(
-    new Paragraph({
-      children: [
-        new TextRun({
-          text: exam.title,
-          bold: true,
-          size: 34,
-        }),
-      ],
-      alignment: AlignmentType.CENTER,
-      spacing: { after: 200 },
-    })
-  )
-
-  // Meta info
-  children.push(
-    new Paragraph({
-      children: [
-        new TextRun({
-          text: 'Dauer: 60 Minuten | Fragen: 50 | Bestehen ab 30 richtigen Fragen',
-          italics: true,
-          size: 22,
-        }),
-      ],
-      alignment: AlignmentType.CENTER,
-      spacing: { after: 200 },
-    })
-  )
-
-  // Name field
-  children.push(
-    new Paragraph({
-      children: [new TextRun({ text: 'Name: ___________________________________________    Datum: ____________________', size: 22 })],
-      spacing: { after: 200 },
-    })
-  )
-
-  // Hint
-  children.push(
-    new Paragraph({
-      children: [
-        new TextRun({
-          text: 'Hinweis: Jede Frage hat vier Antwortmöglichkeiten. Eine, zwei oder drei Antworten können richtig sein. Eine Frage zählt nur, wenn alle richtigen und keine falschen Antworten markiert wurden.',
-          size: 20,
-        }),
-      ],
-      spacing: { after: 100 },
-    })
-  )
-
-  // Variant/Seed
-  children.push(
-    new Paragraph({
-      children: [
-        new TextRun({
-          text: `Variante/Seed: ${exam.seed}`,
-          size: 16,
-          color: '666666',
-        }),
-      ],
-      alignment: AlignmentType.RIGHT,
-      spacing: { after: 400 },
-    })
-  )
-
   // Questions
   for (const q of exam.questions) {
     children.push(
       new Paragraph({
-        children: [new TextRun({ text: `${q.nr}. Frage`, bold: true, size: 22 })],
+        children: [new TextRun({ text: `${q.nr}. ${q.question}`, bold: true, size: 22 })],
         spacing: { before: 100, after: 50 },
-      })
-    )
-
-    children.push(
-      new Paragraph({
-        children: [new TextRun({ text: q.question, size: 22 })],
-        spacing: { after: 100 },
       })
     )
 
@@ -118,7 +45,7 @@ export async function generateWordDocument(exam: GeneratedExam, includeKey: bool
 
     const tableRows = [
       new TableRow({
-        children: ['Frage', 'Lösung', 'ID', 'Thema', 'Niveau'].map(
+        children: ['Nr.', 'Lösung', 'ID', 'Thema', 'Niveau'].map(
           (header) =>
             new TableCell({
               children: [
