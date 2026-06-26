@@ -437,3 +437,82 @@ th {
   overflow-x: auto;
 }
 
+/* Add Question Form */
+.add-question-form {
+  padding: 22px;
+}
+
+.add-question-form h3 {
+  margin-top: 0;
+  color: #083b66;
+}
+
+.add-question-form .form-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.add-question-form .form-row label {
+  flex: 1;
+  min-width: 200px;
+}
+
+.add-question-form select,
+.add-question-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 6px;
+  padding: 11px;
+  border: 1px solid #cad5df;
+  border-radius: 9px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.add-question-form textarea {
+  resize: vertical;
+}
+
+.answers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.answer-label span {
+  font-weight: bold;
+  color: #083b66;
+  font-size: 14px;
+}
+
+.solution-checks {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0;
+  padding: 12px;
+  background: #f0f4f8;
+  border-radius: 8px;
+}
+
+.solution-checks span {
+  font-weight: bold;
+  color: #083b66;
+}
+
+.solution-check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.solution-check input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+

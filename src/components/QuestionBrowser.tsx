@@ -80,7 +80,7 @@ export default function QuestionBrowser({ questions }: Props) {
       </div>
 
       <div className="question-list">
-        {filtered.slice(0, 50).map((q) => (
+        {filtered.map((q) => (
           <div
             key={q.id}
             className={`question-item ${expandedQuestion === q.id ? 'expanded' : ''}`}
@@ -112,11 +112,6 @@ export default function QuestionBrowser({ questions }: Props) {
             )}
           </div>
         ))}
-        {filtered.length > 50 && (
-          <div className="more-results">
-            Zeige 50 von {filtered.length} gefilterten Fragen
-          </div>
-        )}
       </div>
     </section>
   )

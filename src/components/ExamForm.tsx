@@ -1,13 +1,14 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import type { GeneratedExam, Question } from '../types'
 import { SeededRandom, selectQuestions, randomizeAnswers } from '../examGenerator'
 import { generateWordDocument } from '../wordGenerator'
 
 interface Props {
   onError: (error: string | null) => void
+  questions: Question[]
 }
 
-export default function ExamForm({ onError }: Props) {
+export default function ExamForm({ onError, questions }: Props) {
   const [title, setTitle] = useState('IT-Grundschutz-Praktiker Übungsprüfung')
   const [count, setCount] = useState(1)
   const [seed, setSeed] = useState('')
@@ -15,15 +16,7 @@ export default function ExamForm({ onError }: Props) {
   const [avoidOverlap, setAvoidOverlap] = useState(true)
   const [loading, setLoading] = useState(false)
   const [exams, setExams] = useState<GeneratedExam[] | null>(null)
-  const [questions, setQuestions] = useState<Question[]>([])
   const [downloading, setDownloading] = useState<number | null>(null)
-
-  useEffect(() => {
-    fetch('/fragenpool_itgs_praktiker_200.json')
-      .then(res => res.json())
-      .then(data => setQuestions(data.questions))
-      .catch(() => onError('Fragenpool konnte nicht geladen werden'))
-  }, [onError])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()

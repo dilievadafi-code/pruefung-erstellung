@@ -4,7 +4,9 @@ import ExamForm from './components/ExamForm'
 import PoolInfo from './components/PoolInfo'
 import TopicTable from './components/TopicTable'
 import QuestionBrowser from './components/QuestionBrowser'
+import AddQuestionForm from './components/AddQuestionForm'
 import type { PoolData, Question } from './types'
+import { supabase } from './lib/supabase'
 import { generateWordForPool } from './wordGenerator'
 
 const poolData: PoolData = {
@@ -48,13 +50,44 @@ function App() {
   const [error, setError] = useState<string | null>(null)
   const [activeTab, setActiveTab] = useState<'generator' | 'fragenpool'>('generator')
   const [questions, setQuestions] = useState<Question[]>([])
+  const [loading, setLoading] = useState(true)
   const [downloadingPool, setDownloadingPool] = useState(false)
+  const [showAddForm, setShowAddForm] = useState(false)
+
+  const loadQuestions = async () => {
+    setLoading(true)
+    const { data, error } = await supabase
+      .from('questions')
+      .select('*')
+      .order('id')
+
+    if (error) {
+      setError('Fragen konnten nicht geladen werden: ' + error.message)
+      setLoading(false)
+      return
+    }
+
+    const mapped: Question[] = (data || []).map((q: any) => ({
+      id: q.id,
+      topic_nr: q.topic_nr,
+      topic: q.topic,
+      level: q.level,
+      question: q.question,
+      answers: {
+        A: q.answer_a,
+        B: q.answer_b,
+        C: q.answer_c,
+        D: q.answer_d,
+      },
+      solution: q.solution,
+    }))
+
+    setQuestions(mapped)
+    setLoading(false)
+  }
 
   useEffect(() => {
-    fetch('/fragenpool_itgs_praktiker_200.json')
-      .then(res => res.json())
-      .then(data => setQuestions(data.questions))
-      .catch(() => setError('Fragenpool konnte nicht geladen werden'))
+    loadQuestions()
   }, [])
 
   const handleDownloadPoolWord = async () => {
@@ -67,6 +100,11 @@ function App() {
     } finally {
       setDownloadingPool(false)
     }
+  }
+
+  const handleQuestionAdded = () => {
+    setShowAddForm(false)
+    loadQuestions()
   }
 
   return (
@@ -97,7 +135,7 @@ function App() {
 
       {activeTab === 'generator' && (
         <>
-          <ExamForm onError={setError} />
+          <ExamForm onError={setError} questions={questions} />
 
           <section className="grid">
             <PoolInfo metadata={poolData.metadata} />
@@ -118,9 +156,12 @@ function App() {
             <div className="fragenpool-header">
               <h2>Fragenpool durchsuchen</h2>
               <div className="fragenpool-actions">
-                <a className="link-button secondary" href="/fragenpool_itgs_praktiker_200.json" download>
-                  JSON herunterladen
-                </a>
+                <button
+                  className="link-button secondary"
+                  onClick={() => setShowAddForm(!showAddForm)}
+                >
+                  {showAddForm ? 'Abbrechen' : 'Neue Frage hinzufügen'}
+                </button>
                 <button
                   className="link-button"
                   onClick={handleDownloadPoolWord}
@@ -131,7 +172,12 @@ function App() {
               </div>
             </div>
             <p><strong>{questions.length}</strong> Fragen aus 15 Themenfeldern.</p>
+            {loading && <p>Lade Fragen...</p>}
           </section>
+
+          {showAddForm && (
+            <AddQuestionForm onSuccess={handleQuestionAdded} onError={setError} />
+          )}
 
           <QuestionBrowser questions={questions} />
         </>
