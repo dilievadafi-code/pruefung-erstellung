@@ -88,6 +88,7 @@ export default function AddQuestionForm({ onSuccess, onError }: Props) {
       answer_c: answerC.trim(),
       answer_d: answerD.trim(),
       solution,
+      admin_key: 'a1b2c3d4-e5f6-7890-abcd-ef1234567890',
     })
 
     if (error) {
