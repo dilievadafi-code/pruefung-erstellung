@@ -201,6 +201,10 @@ function App() {
           <QuestionBrowser questions={questions} />
         </>
       )}
+
+      <footer className="footer">
+        <p>© Denitsa Buschin</p>
+      </footer>
     </main>
   )
 }
