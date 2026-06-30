@@ -204,6 +204,10 @@ function App() {
 
       <footer className="footer">
         <p>© Denitsa Buschin</p>
+        <p className="footer-note">
+          Diese Website und der Fragenpool wurden mit Unterstützung von KI erstellt.
+          Die Fragen basieren ausschließlich auf offiziellen BSI-Schulungsunterlagen.
+        </p>
       </footer>
     </main>
   )
