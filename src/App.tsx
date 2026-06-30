@@ -5,44 +5,63 @@ import PoolInfo from './components/PoolInfo'
 import TopicTable from './components/TopicTable'
 import QuestionBrowser from './components/QuestionBrowser'
 import AddQuestionForm from './components/AddQuestionForm'
-import type { PoolData, Question } from './types'
+import type { Question, Metadata } from './types'
 import { supabase } from './lib/supabase'
 import { generateWordForPool } from './wordGenerator'
 
-const poolData: PoolData = {
-  metadata: {
-    title: "Fragenpool IT-Grundschutz-Praktiker - 200 Multiple-Choice-Fragen",
+function getTopicRequirements(questions: Question[]) {
+  const counts = new Map<number, { topic: string; count: number }>()
+  for (const q of questions) {
+    const existing = counts.get(q.topic_nr)
+    if (existing) {
+      existing.count++
+    } else {
+      counts.set(q.topic_nr, { topic: q.topic, count: 1 })
+    }
+  }
+
+  const baseRequirements = [
+    { topic_nr: 1, questions_in_exam: 2 },
+    { topic_nr: 2, questions_in_exam: 2 },
+    { topic_nr: 3, questions_in_exam: 2 },
+    { topic_nr: 4, questions_in_exam: 3 },
+    { topic_nr: 5, questions_in_exam: 2 },
+    { topic_nr: 6, questions_in_exam: 8 },
+    { topic_nr: 7, questions_in_exam: 3 },
+    { topic_nr: 8, questions_in_exam: 5 },
+    { topic_nr: 9, questions_in_exam: 5 },
+    { topic_nr: 10, questions_in_exam: 5 },
+    { topic_nr: 11, questions_in_exam: 3 },
+    { topic_nr: 12, questions_in_exam: 2 },
+    { topic_nr: 13, questions_in_exam: 3 },
+    { topic_nr: 14, questions_in_exam: 3 },
+    { topic_nr: 15, questions_in_exam: 2 },
+  ]
+
+  return baseRequirements.map(req => {
+    const pool = counts.get(req.topic_nr)
+    return {
+      topic_nr: req.topic_nr,
+      topic: pool?.topic || `Themenfeld ${req.topic_nr}`,
+      questions_in_exam: req.questions_in_exam,
+      questions_in_pool: pool?.count || 0,
+    }
+  })
+}
+
+function getMetadata(questions: Question[]): Metadata {
+  const basis = questions.filter(q => q.level === 'Basis').length
+  const experte = questions.filter(q => q.level === 'Experte').length
+  return {
+    title: "Fragenpool IT-Grundschutz-Praktiker - Multiple-Choice-Fragen",
     created: "2026-06-23",
-    question_total: 200,
-    basis_expert_ratio: { Basis: 150, Experte: 50 },
+    question_total: questions.length,
+    basis_expert_ratio: { Basis: basis, Experte: experte },
     answers_per_question: 4,
     correct_answers_per_question: "1 bis 3",
     answer_distribution: { "1": 32, "2": 70, "3": 98 },
     source_note: "Eigenformulierungen auf Basis der bereitgestellten Prüfungsbedingungen, des Online-Kurses und der vorhandenen Fragenorientierung.",
     official_note: "Kein offizieller BSI-Fragenpool und keine offiziellen BSI-Prüfungsfragen."
-  },
-  exam_rules: {
-    total_questions: 50,
-    duration_minutes: 60,
-    passing_threshold_questions: 30,
-    answers_per_question: 4,
-    topic_requirements: [
-      { topic_nr: 1, topic: "Einführung und Grundlagen der IT-Sicherheit und rechtlicher Rahmenbedingungen", questions_in_exam: 2, questions_in_pool: 8 },
-      { topic_nr: 2, topic: "Normen und Standards der Informationssicherheit", questions_in_exam: 2, questions_in_pool: 8 },
-      { topic_nr: 3, topic: "Einführung IT-Grundschutz", questions_in_exam: 2, questions_in_pool: 8 },
-      { topic_nr: 4, topic: "IT-Grundschutz-Vorgehensweise (Überblick)", questions_in_exam: 3, questions_in_pool: 12 },
-      { topic_nr: 5, topic: "IT-Grundschutz-Kompendium (Überblick)", questions_in_exam: 2, questions_in_pool: 8 },
-      { topic_nr: 6, topic: "Umsetzung der IT-Grundschutz-Vorgehensweise", questions_in_exam: 8, questions_in_pool: 32 },
-      { topic_nr: 7, topic: "IT-Grundschutz-Check", questions_in_exam: 3, questions_in_pool: 12 },
-      { topic_nr: 8, topic: "Risikoanalyse", questions_in_exam: 5, questions_in_pool: 20 },
-      { topic_nr: 9, topic: "Umsetzungsplanung", questions_in_exam: 5, questions_in_pool: 20 },
-      { topic_nr: 10, topic: "Aufrechterhaltung und kontinuierliche Verbesserung", questions_in_exam: 5, questions_in_pool: 20 },
-      { topic_nr: 11, topic: "Zertifizierung und Erwerb des IT-Grundschutz-Zertifikats auf Basis von ISO 27001", questions_in_exam: 3, questions_in_pool: 12 },
-      { topic_nr: 12, topic: "IT-Grundschutz-Profile", questions_in_exam: 2, questions_in_pool: 8 },
-      { topic_nr: 13, topic: "Vorbereitung auf ein Audit", questions_in_exam: 3, questions_in_pool: 12 },
-      { topic_nr: 14, topic: "Sicherheitsvorfallbehandlung", questions_in_exam: 3, questions_in_pool: 12 },
-      { topic_nr: 15, topic: "BCM", questions_in_exam: 2, questions_in_pool: 8 }
-    ]
   }
 }
 
@@ -138,15 +157,15 @@ function App() {
           <ExamForm onError={setError} questions={questions} />
 
           <section className="grid">
-            <PoolInfo metadata={poolData.metadata} />
+            <PoolInfo metadata={getMetadata(questions)} />
             <div className="card small">
               <h3>Prüfung</h3>
-              <p><strong>{poolData.exam_rules.total_questions}</strong> Fragen, <strong>{poolData.exam_rules.duration_minutes}</strong> Minuten, Bestehen ab <strong>{poolData.exam_rules.passing_threshold_questions}</strong> richtigen Fragen.</p>
+              <p><strong>50</strong> Fragen, <strong>60</strong> Minuten, Bestehen ab <strong>30</strong> richtigen Fragen.</p>
               <p>Die Auswahl erfolgt je Themenfeld. Antwortoptionen werden pro Variante neu gemischt.</p>
             </div>
           </section>
 
-          <TopicTable topicRequirements={poolData.exam_rules.topic_requirements} />
+          <TopicTable topicRequirements={getTopicRequirements(questions)} />
         </>
       )}
 
