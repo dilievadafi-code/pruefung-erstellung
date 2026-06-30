@@ -131,7 +131,7 @@ function App() {
       <section className="hero">
         <div>
           <h1>IT-Grundschutz-Praktiker Prüfungsgenerator</h1>
-          <p>Erzeugt randomisierte Prüfungen aus dem 200-Fragen-Pool nach der vorgegebenen Themenverteilung.</p>
+          <p>Erzeugt randomisierte Prüfungen aus dem {questions.length}-Fragen-Pool nach der vorgegebenen Themenverteilung.</p>
         </div>
       </section>
 
