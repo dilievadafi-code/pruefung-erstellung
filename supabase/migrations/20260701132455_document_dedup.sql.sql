@@ -1,0 +1,3 @@
+-- Note: This migration removes duplicates that were present in the original data
+-- The questions have been kept in their most topic-appropriate location
+-- See migration 20260629144200_remove_duplicate_questions.sql for details

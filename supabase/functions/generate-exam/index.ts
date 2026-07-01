@@ -129,6 +129,28 @@ function allocateExperts(
   return result;
 }
 
+function verifyNoDuplicates(questions: Question[]): void {
+  const seenIds = new Set<string>();
+  const seenQuestions = new Set<string>();
+  const duplicates: string[] = [];
+
+  for (const q of questions) {
+    if (seenIds.has(q.id)) {
+      duplicates.push(`Duplicate ID: ${q.id}`);
+    }
+    seenIds.add(q.id);
+
+    if (seenQuestions.has(q.question)) {
+      duplicates.push(`Duplicate question text: "${q.question.substring(0, 50)}..." (ID: ${q.id})`);
+    }
+    seenQuestions.add(q.question);
+  }
+
+  if (duplicates.length > 0) {
+    throw new Error(`Duplicate questions detected in exam:\n${duplicates.join('\n')}`);
+  }
+}
+
 function selectQuestions(
   questions: Question[],
   rng: SeededRandom,
@@ -173,7 +195,9 @@ function selectQuestions(
     selected.push(...rng.sample(basis, bNeeded));
   }
 
-  return rng.shuffle(selected);
+  const shuffled = rng.shuffle(selected);
+  verifyNoDuplicates(shuffled);
+  return shuffled;
 }
 
 function randomizeAnswers(q: Question, rng: SeededRandom): Question {
